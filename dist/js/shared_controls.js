@@ -1082,10 +1082,10 @@ $(".gen").change(function () {
 			window.history.replaceState({}, document.title, window.location.pathname + (params.length ? '?' + params : ''));
 		}
 	} else {
-		params.set('gen', gen);
+		//params.set('gen', gen);
 		if (window.history && window.history.pushState) {
 			params.sort();
-			var path = window.location.pathname + '?' + params;
+			var path = window.location.pathname + params; //removed questionmark here
 			window.history.pushState({}, document.title, path);
 			gtag('config', 'UA-26211653-3', { 'page_path': path });
 		}
