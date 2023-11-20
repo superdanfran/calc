@@ -1072,10 +1072,10 @@ TR_NAMES = get_trainer_names()
 
 $(".gen").change(function () {
 	/*eslint-disable */
-	gen = ~~$(this).val() || 8;
+	gen = ~~$(this).val() || 9;
 	GENERATION = calc.Generations.get(gen);
 	var params = new URLSearchParams(window.location.search);
-	if (gen === 8) {
+	if (gen === 9) {
 		params.delete('gen');
 		params = '' + params;
 		if (window.history && window.history.replaceState) {
@@ -1416,7 +1416,7 @@ function loadCustomList(id) {
 }
 
 function get_trainer_names() {
-	var all_poks = SETDEX_SS
+	var all_poks = SETDEX_SV
 	var trainer_names = []
 
 	for (const [pok_name, poks] of Object.entries(all_poks)) {
@@ -1501,7 +1501,7 @@ function selectFirstMon() {
 
 function selectTrainer(value) {
 	localStorage.setItem("lasttimetrainer", value);
-	all_poks = SETDEX_SS
+	all_poks = SETDEX_SV
 	for (const [pok_name, poks] of Object.entries(all_poks)) {
 		var pok_tr_names = Object.keys(poks)
 		for (i in pok_tr_names) {
@@ -1797,7 +1797,7 @@ function switchIconDouble(){
 
 $(document).ready(function () {
 	var params = new URLSearchParams(window.location.search);
-	var g = GENERATION[params.get('gen')] || 8;
+	var g = GENERATION[params.get('gen')] || 9;
 	$("#gen" + g).prop("checked", true);
 	$("#gen" + g).change();
 	$("#percentage").prop("checked", true);
