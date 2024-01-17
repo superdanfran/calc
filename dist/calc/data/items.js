@@ -523,7 +523,10 @@ var SV = SS.concat([
     'Ability Shield',
     'Booster Energy',
     'Clear Amulet',
+    'Cornerstone Mask',
     'Covert Cloak',
+    'Fairy Feather',
+    'Hearthflame Mask',
     'Loaded Dice',
     'Malicious Armor',
     'Mirror Herb',
@@ -531,6 +534,7 @@ var SV = SS.concat([
     'Lustrous Globe',
     'Griseous Core',
     'Strange Ball',
+    'Wellspring Mask',
 ]);
 var BERRIES = {
     'Aguav Berry': { t: 'Dragon', p: 80 },

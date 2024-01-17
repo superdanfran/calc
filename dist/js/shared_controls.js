@@ -474,6 +474,9 @@ $(".set-selector").change(function () {
 			if (pok_name == "Tauros-Paldea-Fire") {
 				pok_name = "Tauros-Paldea-Blaze"
 			}
+			if (pok_name == "Tauros-Paldea") {
+				pok_name = "Tauros-Paldea-Combat"
+			}
 			if (pok_name == "Wooper-Paldea") {
 				pok_name = "WooperPaldea"
 			}

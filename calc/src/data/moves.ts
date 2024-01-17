@@ -3516,7 +3516,7 @@ const SS_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     maxPower: 90,
   },
   'Snap Trap': {
-    bp: 35,
+    bp: 80,
     type: 'Grass',
     makesContact: true,
     category: 'Physical',
@@ -4258,6 +4258,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     isWind: true,
     target: 'allAdjacentFoes',
   },
+  'Blood Moon': {bp: 120, category: 'Special', type: 'Normal'},
   'Ceaseless Edge': {
     bp: 65,
     type: 'Dark',
@@ -4413,6 +4414,13 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     maxPower: 110,
     secondaries: true,
   },
+  'Ivy Cudgel': {
+    bp: 100,
+    type: 'Grass',
+    category: 'Physical',
+    zp: 180,
+    maxPower: 130,
+  },
   'Jet Punch': {
     bp: 60,
     type: 'Water',
@@ -4469,6 +4477,15 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     maxPower: 140,
     target: 'allAdjacentFoes',
     self: {boosts: {spa: -1}},
+  },
+  'Matcha Gotcha': {
+    bp: 80,
+    type: 'Grass',
+    category: 'Special',
+    target: 'allAdjacentFoes',
+    zp: 140,
+    maxPower: 130,
+    drain: [1, 2],
   },
   'Mortal Spin': {
     bp: 30,
@@ -4653,6 +4670,15 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     makesContact: true,
     isSlicing: true,
     secondaries: true,
+  },
+  'Syrup Bomb': {
+    bp: 60,
+    type: 'Grass',
+    category: 'Special',
+    zp: 120,
+    maxPower: 110,
+    isBullet: true,
+    secondaries: true
   },
   'Take Heart': {
     bp: 0,

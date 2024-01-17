@@ -56,7 +56,7 @@ var RBY = {
     Bubble: { bp: 20, type: 'Water' },
     'Bubble Beam': { bp: 65, type: 'Water' },
     Clamp: { bp: 35, type: 'Water' },
-    'Comet Punch': { bp: 18, type: 'Normal', multihit: [2, 5] },
+    'Comet Punch': { bp: 20, type: 'Normal', multihit: [2, 5] },
     Constrict: { bp: 10, type: 'Normal' },
     Conversion: { bp: 0, category: 'Status', type: 'Normal' },
     Counter: { bp: 1, type: 'Fighting' },
@@ -67,7 +67,7 @@ var RBY = {
     'Dizzy Punch': { bp: 70, type: 'Normal' },
     'Double-Edge': { bp: 100, type: 'Normal', recoil: [25, 100] },
     'Double Kick': { bp: 30, type: 'Fighting', multihit: 2 },
-    'Double Slap': { bp: 15, type: 'Normal', multihit: [2, 5] },
+    'Double Slap': { bp: 20, type: 'Normal', multihit: [2, 5] },
     'Dragon Rage': { bp: 1, type: 'Dragon' },
     'Dream Eater': { bp: 100, type: 'Psychic', drain: [1, 2] },
     Earthquake: { bp: 100, type: 'Ground' },
@@ -134,7 +134,7 @@ var RBY = {
     'Thunder Wave': { bp: 0, category: 'Status', type: 'Electric' },
     Transform: { bp: 0, category: 'Status', type: 'Normal' },
     'Tri Attack': { bp: 80, type: 'Normal' },
-    Twineedle: { bp: 25, type: 'Bug', multihit: 2 },
+    Twineedle: { bp: 30, type: 'Bug', multihit: 2 },
     Whirlwind: { bp: 0, category: 'Status', type: 'Normal' },
     'Wing Attack': { bp: 35, type: 'Flying' },
     Wrap: { bp: 15, type: 'Normal' },
@@ -452,7 +452,7 @@ var ADV_PATCH = {
     'Vital Throw': { makesContact: true },
     'Wing Attack': { makesContact: true },
     'Arm Thrust': {
-        bp: 15,
+        bp: 25,
         type: 'Fighting',
         multihit: [2, 5],
         makesContact: true
@@ -1559,7 +1559,7 @@ var BW_PATCH = {
         category: 'Physical'
     },
     Glaciate: {
-        bp: 65,
+        bp: 80,
         type: 'Ice',
         target: 'allAdjacentFoes',
         category: 'Special',
@@ -3501,7 +3501,7 @@ var SS_PATCH = {
         maxPower: 90
     },
     'Snap Trap': {
-        bp: 35,
+        bp: 80,
         type: 'Grass',
         makesContact: true,
         category: 'Physical',
@@ -4152,7 +4152,7 @@ var SV_PATCH = {
     'Fairy Wind': { isWind: true },
     'Fury Cutter': { isSlicing: true },
     'Glacial Lance': { bp: 120, zp: 190 },
-    'Grassy Glide': { bp: 60, zp: 120, maxPower: 110 },
+    'Grassy Glide': { bp: 70, zp: 120, maxPower: 110 },
     Gust: { isWind: true },
     'Heat Wave': { isWind: true },
     Hurricane: { isWind: true },
@@ -4250,6 +4250,7 @@ var SV_PATCH = {
         isWind: true,
         target: 'allAdjacentFoes'
     },
+    'Blood Moon': { bp: 120, category: 'Special', type: 'Normal' },
     'Ceaseless Edge': {
         bp: 65,
         type: 'Dark',
@@ -4405,6 +4406,13 @@ var SV_PATCH = {
         maxPower: 110,
         secondaries: true
     },
+    'Ivy Cudgel': {
+        bp: 100,
+        type: 'Grass',
+        category: 'Physical',
+        zp: 180,
+        maxPower: 130
+    },
     'Jet Punch': {
         bp: 60,
         type: 'Water',
@@ -4460,6 +4468,15 @@ var SV_PATCH = {
         maxPower: 140,
         target: 'allAdjacentFoes',
         self: { boosts: { spa: -1 } }
+    },
+    'Matcha Gotcha': {
+        bp: 80,
+        type: 'Grass',
+        category: 'Special',
+        target: 'allAdjacentFoes',
+        zp: 140,
+        maxPower: 130,
+        drain: [1, 2]
     },
     'Mortal Spin': {
         bp: 30,
@@ -4642,6 +4659,15 @@ var SV_PATCH = {
         maxPower: 120,
         makesContact: true,
         isSlicing: true,
+        secondaries: true
+    },
+    'Syrup Bomb': {
+        bp: 60,
+        type: 'Grass',
+        category: 'Special',
+        zp: 120,
+        maxPower: 110,
+        isBullet: true,
         secondaries: true
     },
     'Take Heart': {
