@@ -1080,7 +1080,10 @@ export function calculateBPModsSMSSSV(
     (attacker.hasItem('Vile Vial') &&
      attacker.named('Venomicon-Epilogue') &&
      move.hasType('Poison', 'Flying')) ||
-     attacker.item && move.hasType(getItemBoostType(attacker.item))
+     attacker.item && move.hasType(getItemBoostType(attacker.item)) ||
+    (attacker.name.includes('Ogerpon-Cornerstone') && attacker.hasItem('Cornerstone Mask')) ||
+    (attacker.name.includes('Ogerpon-Hearthflame') && attacker.hasItem('Hearthflame Mask')) ||
+    (attacker.name.includes('Ogerpon-Wellspring') && attacker.hasItem('Wellspring Mask'))
   ) {
     bpMods.push(4915);
     desc.attackerItem = attacker.item;
