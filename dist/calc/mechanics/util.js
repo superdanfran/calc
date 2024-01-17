@@ -198,6 +198,13 @@ function checkAirLock(pokemon, field) {
     }
 }
 exports.checkAirLock = checkAirLock;
+function checkTeraformZero(pokemon, field) {
+    if (pokemon.hasAbility('Teraform Zero') && pokemon.abilityOn) {
+        field.weather = undefined;
+        field.terrain = undefined;
+    }
+}
+exports.checkTeraformZero = checkTeraformZero;
 function checkForecast(pokemon, weather) {
     if (pokemon.hasAbility('Forecast') && pokemon.named('Castform')) {
         switch (weather) {

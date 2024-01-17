@@ -4151,6 +4151,7 @@ for (const m of LGPE_MOVES) {
 
 const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Aerial Ace': {isSlicing: true},
+  Aeroblast: {isWind: true},
   'Air Cutter': {isSlicing: true, isWind: true},
   'Air Slash': {isSlicing: true},
   'Behemoth Blade': {isSlicing: true},
@@ -4166,6 +4167,8 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   Hurricane: {isWind: true},
   'Icy Wind': {isWind: true},
   'Leaf Blade': {isSlicing: true},
+  'Luster Purge': {bp: 95, zp: 175, maxPower: 130},
+  'Mist Ball': {bp: 95, zp: 175, maxPower: 130},
   'Night Slash': {isSlicing: true},
   'Petal Blizzard': {isWind: true},
   'Psycho Cut': {isSlicing: true},
@@ -4187,6 +4190,16 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 140,
     maxPower: 120,
     isSlicing: true,
+  },
+  'Alluring Voice': {
+    bp: 80,
+    type: 'Fairy',
+    category: 'Special',
+    zp: 160,
+    maxPower: 130,
+    secondaries: true,
+    isSound: true,
+    makesContact: true,
   },
   'Aqua Step': {
     bp: 80,
@@ -4259,6 +4272,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     target: 'allAdjacentFoes',
   },
   'Blood Moon': {bp: 120, category: 'Special', type: 'Normal'},
+  'Burning Bulwark': {bp: 0, type: 'Fire', priority: 4},
   'Ceaseless Edge': {
     bp: 65,
     type: 'Dark',
@@ -4336,6 +4350,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     makesContact: true,
     secondaries: true,
   },
+  'Dragon Cheer': {bp: 0, type: 'Dragon'},
   'Electro Drift': {
     bp: 100,
     type: 'Electric',
@@ -4344,6 +4359,13 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     maxPower: 130,
     makesContact: true, // deals 1.3x on super effective
   },
+  'Electro Shot': {
+    bp: 130,
+    type: 'Electric',
+    category: 'Special',
+    zp: 195,
+    maxPower: 140,
+  },
   'Esper Wing': {
     bp: 80,
     type: 'Psychic',
@@ -4351,6 +4373,13 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 160,
     maxPower: 130,
     secondaries: true,
+  },
+  'Fickle Beam': {
+    bp: 80,
+    type: 'Dragon',
+    category: 'Special',
+    zp: 160,
+    maxPower: 130,
   },
   'Fillet Away': {
     bp: 0,
@@ -4378,6 +4407,14 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     category: 'Physical',
     zp: 190,
     maxPower: 140,
+    makesContact: true,
+  },
+  'Hard Press': {
+    bp: 0,
+    type: 'Steel',
+    category: 'Physical',
+    zp: 100,
+    maxPower: 100,
     makesContact: true,
   },
   'Headlong Rush': {
@@ -4478,6 +4515,14 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     target: 'allAdjacentFoes',
     self: {boosts: {spa: -1}},
   },
+  'Malignant Chain': {
+    bp: 100,
+    type: 'Poison',
+    category: 'Special',
+    zp: 180,
+    maxPower: 90,
+    secondaries: true,
+  },
   'Matcha Gotcha': {
     bp: 80,
     type: 'Grass',
@@ -4486,6 +4531,15 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 140,
     maxPower: 130,
     drain: [1, 2],
+  },
+  'Mighty Cleave': {
+    bp: 95,
+    type: 'Rock',
+    category: 'Physical',
+    zp: 175,
+    maxPower: 130,
+    makesContact: true,
+    isSlicing: true,
   },
   'Mortal Spin': {
     bp: 30,
@@ -4529,6 +4583,15 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     maxPower: 130,
     isPulse: true,
     // Sheer Force boost implemented in gen789.ts
+  },
+  'Psychic Noise': {
+    bp: 75,
+    type: 'Psychic',
+    category: 'Special',
+    zp: 140,
+    maxPower: 130,
+    secondaries: true,
+    isSound: true,
   },
   'Population Bomb': {
     bp: 20,
@@ -4671,6 +4734,15 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     isSlicing: true,
     secondaries: true,
   },
+  'Supercell Slam': {
+    bp: 100,
+    type: 'Electric',
+    category: 'Physical',
+    zp: 180,
+    maxPower: 130,
+    makesContact: true,
+    hasCrashDamage: true,
+  },
   'Syrup Bomb': {
     bp: 60,
     type: 'Grass',
@@ -4680,10 +4752,27 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     isBullet: true,
     secondaries: true,
   },
+  'Tachyon Cutter': {
+    bp: 50,
+    type: 'Steel',
+    category: 'Special',
+    zp: 180,
+    maxPower: 140,
+    multihit: 2,
+    isSlicing: true,
+  },
   'Take Heart': {
     bp: 0,
     type: 'Psychic',
     category: 'Status',
+  },
+  'Temper Flare': {
+    bp: 75,
+    type: 'Fire',
+    category: 'Physical',
+    zp: 140,
+    maxPower: 130,
+    makesContact: true,
   },
   'Tera Blast': {
     bp: 80,
@@ -4691,6 +4780,21 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     category: 'Special',
     zp: 160,
     maxPower: 130,
+  },
+  'Tera Starstorm': {
+    bp: 120,
+    type: 'Normal',
+    category: 'Special',
+    zp: 190,
+    maxPower: 140,
+  },
+  'Thunderclap': {
+    bp: 70,
+    type: 'Electric',
+    category: 'Special',
+    zp: 140,
+    maxPower: 120,
+    priority: 1,
   },
   'Tidy Up': {
     bp: 0,
@@ -4739,6 +4843,16 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 100,
     maxPower: 90,
     multihit: 2,
+  },
+  'Upper Hand': {
+    bp: 65,
+    type: 'Fighting',
+    category: 'Physical',
+    zp: 120,
+    maxPower: 85,
+    makesContact: true,
+    secondaries: true,
+    priority: 3,
   },
   'Victory Dance': {
     bp: 0,

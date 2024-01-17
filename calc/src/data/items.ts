@@ -482,6 +482,7 @@ const SV = SS.concat([
   'Hearthflame Mask',
   'Loaded Dice',
   'Malicious Armor',
+  'Metal Alloy',
   'Mirror Herb',
   'Punching Glove',
   'Lustrous Globe',
