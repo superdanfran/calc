@@ -8957,8 +8957,7 @@ var PLA_PATCH = {
         types: ['Ground', 'Normal'],
         bs: { hp: 130, at: 140, df: 105, sa: 45, sd: 80, sp: 50 },
         weightkg: 290,
-        abilities: { 0: 'Guts' },
-        otherFormes: ['Ursaluna-Bloodmoon']
+        abilities: { 0: 'Guts' }
     },
     'Voltorb-Hisui': {
         types: ['Electric', 'Grass'],
@@ -9185,6 +9184,13 @@ var SV_PATCH = {
         bs: { hp: 120, at: 90, df: 70, sa: 110, sd: 70, sp: 60 },
         weightkg: 160,
         abilities: { 0: 'Cud Chew' }
+    },
+    Fezandipiti: {
+        types: ['Poison', 'Psychic'],
+        bs: { hp: 88, at: 91, df: 82, sa: 70, sd: 125, sp: 99 },
+        weightkg: 12.2,
+        gender: 'M',
+        abilities: { 0: 'Toxic Chain' }
     },
     Fidough: {
         types: ['Fairy'],
@@ -9430,6 +9436,13 @@ var SV_PATCH = {
         gender: 'N',
         abilities: { 0: 'Hadron Engine' }
     },
+    Munkidori: {
+        types: ['Poison', 'Psychic'],
+        bs: { hp: 88, at: 75, sa: 130, sd: 90, sp: 106 },
+        weightkg: 12.2,
+        gender: 'M',
+        abilities: { 0: 'Toxic Chain' }
+    },
     Nacli: {
         types: ['Rock'],
         bs: { hp: 55, at: 55, df: 75, sa: 35, sd: 35, sp: 25 },
@@ -9451,6 +9464,81 @@ var SV_PATCH = {
         abilities: { 0: 'Swarm' },
         nfe: true
     },
+    Ogerpon: {
+        types: ['Grass'],
+        gender: 'F',
+        bs: { hp: 80, at: 120, df: 84, sa: 60, sd: 96, sp: 110 },
+        abilities: { 0: 'Defiant' },
+        weightkg: 39.8,
+        otherFormes: [
+            'Ogerpon-Wellspring', 'Ogerpon-Hearthflame', 'Ogerpon-Cornerstone', 'Ogerpon-Teal-Tera',
+            'Ogerpon-Wellspring-Tera', 'Ogerpon-Hearthflame-Tera', 'Ogerpon-Cornerstone-Tera',
+        ],
+        forceTeraType: 'Grass'
+    },
+    'Ogerpon-Wellspring': {
+        types: ['Grass', 'Water'],
+        gender: 'F',
+        bs: { hp: 80, at: 120, df: 84, sa: 60, sd: 96, sp: 110 },
+        abilities: { 0: 'Water Absorb' },
+        weightkg: 39.8,
+        baseSpecies: 'Ogerpon',
+        forceTeraType: 'Water'
+    },
+    'Ogerpon-Hearthflame': {
+        types: ['Grass', 'Fire'],
+        gender: 'F',
+        bs: { hp: 80, at: 120, df: 84, sa: 60, sd: 96, sp: 110 },
+        abilities: { 0: 'Mold Breaker' },
+        weightkg: 39.8,
+        baseSpecies: 'Ogerpon',
+        forceTeraType: 'Fire'
+    },
+    'Ogerpon-Cornerstone': {
+        types: ['Grass', 'Rock'],
+        gender: 'F',
+        bs: { hp: 80, at: 120, df: 84, sa: 60, sd: 96, sp: 110 },
+        abilities: { 0: 'Sturdy' },
+        weightkg: 39.8,
+        baseSpecies: 'Ogerpon',
+        forceTeraType: 'Rock'
+    },
+    'Ogerpon-Teal-Tera': {
+        types: ['Grass'],
+        gender: 'F',
+        bs: { hp: 80, at: 120, df: 84, sa: 60, sd: 96, sp: 110 },
+        abilities: { 0: 'Embody Aspect (Teal)' },
+        weightkg: 39.8,
+        baseSpecies: 'Ogerpon',
+        forceTeraType: 'Grass'
+    },
+    'Ogerpon-Wellspring-Tera': {
+        types: ['Grass', 'Water'],
+        gender: 'F',
+        bs: { hp: 80, at: 120, df: 84, sa: 60, sd: 96, sp: 110 },
+        abilities: { 0: 'Embody Aspect (Wellspring)' },
+        weightkg: 39.8,
+        baseSpecies: 'Ogerpon',
+        forceTeraType: 'Water'
+    },
+    'Ogerpon-Hearthflame-Tera': {
+        types: ['Grass', 'Fire'],
+        gender: 'F',
+        bs: { hp: 80, at: 120, df: 84, sa: 60, sd: 96, sp: 110 },
+        abilities: { 0: 'Embody Aspect (Hearthflame)' },
+        weightkg: 39.8,
+        baseSpecies: 'Ogerpon',
+        forceTeraType: 'Fire'
+    },
+    'Ogerpon-Cornerstone-Tera': {
+        types: ['Grass', 'Rock'],
+        gender: 'F',
+        bs: { hp: 80, at: 120, df: 84, sa: 60, sd: 96, sp: 110 },
+        abilities: { 0: 'Embody Aspect (Cornerstone)' },
+        weightkg: 39.8,
+        baseSpecies: 'Ogerpon',
+        forceTeraType: 'Rock'
+    },
     Oinkologne: {
         types: ['Normal'],
         bs: { hp: 110, at: 100, df: 75, sa: 59, sd: 80, sp: 65 },
@@ -9464,6 +9552,13 @@ var SV_PATCH = {
         weightkg: 120,
         abilities: { 0: 'Aroma Veil' },
         baseSpecies: 'Oinkologne'
+    },
+    Okidogi: {
+        types: ['Poison', 'Fighting'],
+        bs: { hp: 88, at: 128, df: 115, sa: 58, sd: 86, sp: 80 },
+        weightkg: 92,
+        gender: 'M',
+        abilities: { 0: 'Toxic Chain' }
     },
     Orthworm: {
         types: ['Steel'],
@@ -9520,8 +9615,8 @@ var SV_PATCH = {
         weightkg: 1.1,
         abilities: { 0: 'Hospitality' },
         nfe: true,
-        otherFormes: ['Poltchageist'],
-        gender: 'N'
+        gender: 'N',
+        baseSpecies: 'Poltchageist'
     },
     Quaquaval: {
         types: ['Water', 'Fighting'],
@@ -9609,8 +9704,8 @@ var SV_PATCH = {
         bs: { hp: 71, at: 60, df: 106, sa: 121, sd: 80, sp: 70 },
         weightkg: 2.2,
         abilities: { 0: 'Hospitality' },
-        otherFormes: ['Sinistcha'],
-        gender: 'N'
+        gender: 'N',
+        baseSpecies: 'Sinistcha'
     },
     Skeledirge: {
         types: ['Fire', 'Ghost'],
@@ -9770,7 +9865,7 @@ var SV_PATCH = {
         bs: { hp: 113, at: 70, df: 120, sa: 135, sd: 65, sp: 52 },
         weightkg: 333,
         abilities: { 0: 'Mind\'s Eye' },
-        otherFormes: ['Ursaluna-Bloodmoon']
+        baseSpecies: 'Ursaluna'
     },
     Varoom: {
         types: ['Steel', 'Poison'],

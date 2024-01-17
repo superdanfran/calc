@@ -4678,7 +4678,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 120,
     maxPower: 110,
     isBullet: true,
-    secondaries: true
+    secondaries: true,
   },
   'Take Heart': {
     bp: 0,

@@ -18,6 +18,7 @@ export interface SpeciesData {
     readonly abilities?: {
         0: string;
     };
+    readonly forceTeraType?: I.TypeName;
 }
 export declare const SPECIES: {
     [name: string]: SpeciesData;

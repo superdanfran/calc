@@ -18,6 +18,8 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     (0, util_2.checkSeedBoost)(defender, field);
     (0, util_2.checkDauntlessShield)(attacker, gen);
     (0, util_2.checkDauntlessShield)(defender, gen);
+    (0, util_2.checkEmbody)(attacker, gen);
+    (0, util_2.checkEmbody)(defender, gen);
     (0, util_2.computeFinalStats)(gen, attacker, defender, field, 'def', 'spd', 'spe');
     (0, util_2.checkIntimidate)(gen, attacker, defender);
     (0, util_2.checkIntimidate)(gen, defender, attacker);
@@ -122,6 +124,17 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
             type = 'Water';
         }
     }
+    else if (move.named('Ivy Cudgel')) {
+        if (attacker.name.includes('Ogerpon-Cornerstone')) {
+            type = 'Rock';
+        }
+        else if (attacker.name.includes('Ogerpon-Hearthflame')) {
+            type = 'Fire';
+        }
+        else if (attacker.name.includes('Ogerpon-Wellspring')) {
+            type = 'Water';
+        }
+    }
     var hasAteAbilityTypeChange = false;
     var isAerilate = false;
     var isPixilate = false;
@@ -169,7 +182,8 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         move.priority = 1;
         desc.attackerAbility = attacker.ability;
     }
-    var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
+    var isGhostRevealed = attacker.hasAbility('Scrappy') || attacker.hasAbility('Mind\'s Eye') ||
+        field.defenderSide.isForesight;
     var isRingTarget = defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
     var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, isRingTarget);
     var type2Effectiveness = defender.types[1]
@@ -626,8 +640,11 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         (defender.name.includes('Silvally') && defender.item.includes('Memory')) ||
         defender.item.includes(' Z') ||
         (defender.named('Zacian') && defender.hasItem('Rusted Sword')) ||
-        (defender.named('Zamazenta') && defender.hasItem('Rusted Shield') ||
-            (defender.named('Venomicon-Epilogue') && defender.hasItem('Vile Vial')));
+        (defender.named('Zamazenta') && defender.hasItem('Rusted Shield')) ||
+        (defender.name.includes('Ogerpon-Cornerstone') && defender.hasItem('Cornerstone Mask')) ||
+        (defender.name.includes('Ogerpon-Hearthflame') && defender.hasItem('Hearthflame Mask')) ||
+        (defender.name.includes('Ogerpon-Wellspring') && defender.hasItem('Wellspring Mask')) ||
+        (defender.named('Venomicon-Epilogue') && defender.hasItem('Vile Vial'));
     if (!resistedKnockOffDamage && defender.item) {
         var item = gen.items.get((0, util_1.toID)(defender.item));
         resistedKnockOffDamage = !!item.megaEvolves && defender.name.includes(item.megaEvolves);
@@ -657,7 +674,8 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         desc.weather = field.weather;
     }
     else if (move.named('Collision Course', 'Electro Drift')) {
-        var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
+        var isGhostRevealed = attacker.hasAbility('Scrappy') || attacker.hasAbility('Mind\'s Eye') ||
+            field.defenderSide.isForesight;
         var isRingTarget = defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
         var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, isRingTarget);
         var type2Effectiveness = defender.types[1] ? (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, isRingTarget) : 1;
