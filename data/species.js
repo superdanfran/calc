@@ -1006,7 +1006,7 @@ var GSC_PATCH = {
     },
     Azumarill: {
         types: ['Water'],
-        bs: { hp: 100, at: 65, df: 80, sa: 50, sd: 80, sp: 50 },
+        bs: { hp: 100, at: 50, df: 80, sa: 60, sd: 80, sp: 50 },
         weightkg: 28.5
     },
     Bayleef: {
