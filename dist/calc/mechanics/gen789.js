@@ -116,13 +116,13 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         }
     }
     else if (move.named('Raging Bull')) {
-        if (attacker.named('Tauros-Paldea')) {
+        if (attacker.named('Tauros-Paldea-Combat')) {
             type = 'Fighting';
         }
-        else if (attacker.named('Tauros-Paldea-Fire')) {
+        else if (attacker.named('Tauros-Paldea-Blaze')) {
             type = 'Fire';
         }
-        else if (attacker.named('Tauros-Paldea-Water')) {
+        else if (attacker.named('Tauros-Paldea-Aqua')) {
             type = 'Water';
         }
     }

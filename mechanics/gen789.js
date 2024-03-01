@@ -115,10 +115,10 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         if (attacker.named('Tauros-Paldea')) {
             type = 'Fighting';
         }
-        else if (attacker.named('Tauros-Paldea-Fire')) {
+        else if (attacker.named('Tauros-Paldea-Blaze')) {
             type = 'Fire';
         }
-        else if (attacker.named('Tauros-Paldea-Water')) {
+        else if (attacker.named('Tauros-Paldea-Aqua')) {
             type = 'Water';
         }
     }

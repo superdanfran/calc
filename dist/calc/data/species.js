@@ -9000,7 +9000,7 @@ var SV_PATCH = {
     Duraludon: { nfe: true },
     Girafarig: { nfe: true },
     Primeape: { nfe: true },
-    Tauros: { otherFormes: ['Tauros-Paldea', 'Tauros-Paldea-Fire', 'Tauros-Paldea-Water'] },
+    Tauros: { otherFormes: ['Tauros-Paldea-Combat', 'Tauros-Paldea-Blaze', 'Tauros-Paldea-Aqua'] },
     Wooper: { otherFormes: ['Wooper-Paldea'] },
     Zacian: { bs: { at: 120 } },
     'Zacian-Crowned': { bs: { at: 150 } },
@@ -9845,21 +9845,21 @@ var SV_PATCH = {
         weightkg: 8,
         abilities: { 0: 'Commander' }
     },
-    'Tauros-Paldea': {
+    'Tauros-Paldea-Combat': {
         types: ['Fighting'],
         bs: { hp: 75, at: 110, df: 105, sa: 30, sd: 70, sp: 100 },
         weightkg: 88.4,
         abilities: { 0: 'Intimidate' },
         baseSpecies: 'Tauros'
     },
-    'Tauros-Paldea-Fire': {
+    'Tauros-Paldea-Blaze': {
         types: ['Fighting', 'Fire'],
         bs: { hp: 75, at: 110, df: 105, sa: 30, sd: 70, sp: 100 },
         weightkg: 88.4,
         abilities: { 0: 'Intimidate' },
         baseSpecies: 'Tauros'
     },
-    'Tauros-Paldea-Water': {
+    'Tauros-Paldea-Aqua': {
         types: ['Fighting', 'Water'],
         bs: { hp: 75, at: 110, df: 105, sa: 30, sd: 70, sp: 100 },
         weightkg: 88.4,
