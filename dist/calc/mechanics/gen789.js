@@ -192,6 +192,14 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         ? (0, util_2.getMoveEffectiveness)(gen, move, defender.types[1], isGhostRevealed, field.isGravity, isRingTarget)
         : 1;
     var typeEffectiveness = type1Effectiveness * type2Effectiveness;
+    if (field.isInverse) {
+        if (typeEffectiveness === 0) {
+            typeEffectiveness = 2;
+        }
+        else {
+            typeEffectiveness = 1 / typeEffectiveness;
+        }
+    }
     if (defender.teraType && defender.teraType !== 'Stellar') {
         typeEffectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.teraType, isGhostRevealed, field.isGravity, isRingTarget);
     }

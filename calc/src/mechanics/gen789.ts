@@ -285,6 +285,15 @@ export function calculateSMSSSV(
     : 1;
   let typeEffectiveness = type1Effectiveness * type2Effectiveness;
 
+  if (field.isInverse) {
+    if (typeEffectiveness === 0) {
+      typeEffectiveness = 2;
+    }
+    else {
+      typeEffectiveness = 1 / typeEffectiveness;
+    }
+  }
+
   if (defender.teraType && defender.teraType !== 'Stellar') {
     typeEffectiveness = getMoveEffectiveness(
       gen,
