@@ -9693,6 +9693,20 @@ var SV_PATCH = {
         gender: 'N',
         abilities: { 0: 'Protosynthesis' }
     },
+    'Walking Wake': {
+        types: ['Water', 'Dragon'],
+        bs: { hp: 99, at: 83, df: 91, sa: 125, sd: 83, sp: 109 },
+        weightkg: 280,
+        gender: 'N',
+        abilities: { 0: 'Protosynthesis' }
+    },
+    'Iron Leaves': {
+        types: ['Grass', 'Psychic'],
+        bs: { hp: 90, at: 130, df: 88, sa: 70, sd: 108, sp: 104 },
+        weightkg: 125,
+        gender: 'N',
+        abilities: { 0: 'Quark Drive' }
+    },
     Rellor: {
         types: ['Bug'],
         bs: { hp: 41, at: 50, df: 60, sa: 31, sd: 58, sp: 30 },

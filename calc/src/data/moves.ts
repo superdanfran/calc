@@ -127,7 +127,7 @@ const RBY: {[name: string]: MoveData} = {
   'Stun Spore': {bp: 0, category: 'Status', type: 'Grass'},
   Submission: {bp: 80, type: 'Fighting', recoil: [1, 4]},
   Substitute: {bp: 0, category: 'Status', type: 'Normal'},
-  'Super Fang': {bp: 1, type: 'Dark'},
+  'Super Fang': {bp: 1, type: 'Normal'},
   Swift: {bp: 60, type: 'Normal'},
   'Take Down': {bp: 90, type: 'Normal', recoil: [1, 4]},
   Thrash: {bp: 90, type: 'Normal'},
@@ -4541,6 +4541,22 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     makesContact: true,
     isSlicing: true,
   },
+  'Hydro Steam': {
+        bp: 80,
+        type: 'Water',
+        category: 'Special',
+        zp: 160,
+        maxPower: 130,
+    },
+  'Psyblade': {
+        bp: 80,
+        type: 'Psychic',
+        category: 'Physical',
+        zp: 160,
+        maxPower: 130,
+        makesContact: true,
+        isSlicing: true
+    },
   'Mortal Spin': {
     bp: 30,
     type: 'Poison',

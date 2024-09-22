@@ -4461,6 +4461,13 @@ var SV_PATCH = {
         target: 'allAdjacentFoes',
         self: { boosts: { spa: -1 } }
     },
+    'Hydro Steam': {
+        bp: 80,
+        type: 'Water',
+        category: 'Special',
+        zp: 160,
+        maxPower: 130,
+    },
     'Mortal Spin': {
         bp: 30,
         type: 'Poison',
