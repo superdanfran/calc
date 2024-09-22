@@ -861,6 +861,12 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         bpMods.push(4915);
         desc.attackerItem = attacker.item;
     }
+    else if (attacker.hasItem('Soul Dew') &&
+        attacker.named('Latios', 'Latias', 'Latios-Mega', 'Latias-Mega') &&
+        move.hasType('Psychic', 'Dragon')) {
+        bpMods.push(4915);
+        desc.attackerItem = attacker.item;
+    }
     else if ((attacker.hasItem('Muscle Band') && move.category === 'Physical') ||
         (attacker.hasItem('Wise Glasses') && move.category === 'Special')) {
         bpMods.push(4505);
@@ -1016,8 +1022,7 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc) {
     }
     else if (!move.isZ && !move.isMax &&
         ((attacker.hasItem('Choice Band') && move.category === 'Physical') ||
-            (attacker.hasItem('Choice Specs') && move.category === 'Special') ||
-            attacker.hasItem("Soul Dew") && move.category === 'Special' && attacker.named('Latios', 'Latias', 'Latios-Mega', 'Latias-Mega'))) {
+            (attacker.hasItem('Choice Specs') && move.category === 'Special'))) {
         atMods.push(6144);
         desc.attackerItem = attacker.item;
     }
@@ -1117,9 +1122,12 @@ function calculateDfModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
     }
     if ((defender.hasItem('Eviolite') &&
         (defender.name === 'Dipplin' || ((_a = gen.species.get((0, util_1.toID)(defender.name))) === null || _a === void 0 ? void 0 : _a.nfe))) ||
-        (!hitsPhysical && defender.hasItem('Assault Vest')) ||
-        (defender.hasItem("Soul Dew") && move.category === 'Special' && defender.named('Latios', 'Latias', 'Latios-Mega', 'Latias-Mega'))) {
+        (!hitsPhysical && defender.hasItem('Assault Vest'))) {
         dfMods.push(6144);
+        desc.defenderItem = defender.item;
+    }
+    else if ((defender.hasItem('Soul Dew') && defender.named('Latios', 'Latias', 'Latios-Mega', 'Latias-Mega') && !hitsPhysical)) {
+        dfMods.push(4915);
         desc.defenderItem = defender.item;
     }
     else if ((defender.hasItem('Metal Powder') && defender.named('Ditto') && hitsPhysical) ||

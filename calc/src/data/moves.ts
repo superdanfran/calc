@@ -1892,7 +1892,7 @@ const XY_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Crafty Shield': {bp: 0, type: 'Fairy', priority: 3},
   'Dazzling Gleam': {bp: 80, type: 'Fairy', target: 'allAdjacentFoes', category: 'Special'},
   'Disarming Voice': {
-    bp: 40,
+    bp: 60,
     type: 'Fairy',
     isSound: true,
     target: 'allAdjacentFoes',

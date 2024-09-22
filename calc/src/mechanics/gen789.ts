@@ -1137,7 +1137,13 @@ export function calculateBPModsSMSSSV(
   ) {
     bpMods.push(4915);
     desc.attackerItem = attacker.item;
-  } else if (
+  
+  } else if (attacker.hasItem('Soul Dew') &&
+        attacker.named('Latios', 'Latias', 'Latios-Mega', 'Latias-Mega') &&
+        move.hasType('Psychic', 'Dragon')) {
+        bpMods.push(4915);
+        desc.attackerItem = attacker.item;
+    } else if (
     (attacker.hasItem('Muscle Band') && move.category === 'Physical') ||
     (attacker.hasItem('Wise Glasses') && move.category === 'Special')
   ) {
@@ -1328,8 +1334,7 @@ export function calculateAtModsSMSSSV(
     // Choice Band/Scarf/Specs move lock and stat boosts are ignored during Dynamax (Anubis)
   } else if (!move.isZ && !move.isMax &&
     ((attacker.hasItem('Choice Band') && move.category === 'Physical') ||
-      (attacker.hasItem('Choice Specs') && move.category === 'Special') ||
-      attacker.hasItem("Soul Dew") && move.category === 'Special' && attacker.named('Latios', 'Latias', 'Latios-Mega', 'Latias-Mega'))
+      (attacker.hasItem('Choice Specs') && move.category === 'Special'))
   ) {
     atMods.push(6144);
     desc.attackerItem = attacker.item;
@@ -1464,9 +1469,13 @@ export function calculateDfModsSMSSSV(
 
   if ((defender.hasItem('Eviolite') &&
       (defender.name === 'Dipplin' || gen.species.get(toID(defender.name))?.nfe)) ||
-      (!hitsPhysical && defender.hasItem('Assault Vest') )||
-      (defender.hasItem("Soul Dew") && move.category === 'Special' && defender.named('Latios', 'Latias', 'Latios-Mega', 'Latias-Mega'))) {
+      (!hitsPhysical && defender.hasItem('Assault Vest') )) {
     dfMods.push(6144);
+    desc.defenderItem = defender.item;
+  } else if (
+    (defender.hasItem('Soul Dew') && defender.named('Latios', 'Latias', 'Latios-Mega', 'Latias-Mega') && !hitsPhysical)
+  ) {
+    dfMods.push(4915);
     desc.defenderItem = defender.item;
   } else if (
     (defender.hasItem('Metal Powder') && defender.named('Ditto') && hitsPhysical) ||
