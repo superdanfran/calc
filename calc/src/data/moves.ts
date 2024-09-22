@@ -2401,13 +2401,6 @@ const SM_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   },
   'Black Hole Eclipse': {bp: 1, type: 'Dark', category: 'Physical', isZ: true},
   'Bloom Doom': {bp: 1, type: 'Grass', category: 'Physical', isZ: true},
-  'Bouncy Bubble': {
-    bp: 90,
-    type: 'Water',
-    drain: [1, 2],
-    category: 'Special',
-    zp: 175,
-  },
   'Breakneck Blitz': {bp: 1, type: 'Normal', category: 'Physical', isZ: true},
   'Buzzy Buzz': {
     bp: 90,
@@ -4145,9 +4138,11 @@ const LGPE_MOVES = [
   'Splishy Splash',
   'Veevee Volley',
 ];
+/*
 for (const m of LGPE_MOVES) {
   delete SS[m];
 }
+*/
 
 const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Aerial Ace': {isSlicing: true},
@@ -4270,6 +4265,15 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     secondaries: true,
     isWind: true,
     target: 'allAdjacentFoes',
+  },
+  'Bouncy Bubble': {
+    bp: 60,
+    type: 'Water',
+    category: 'Special',
+    target: 'allAdjacentFoes',
+    zp: 140,
+    maxPower: 130,
+    drain: [1, 2],
   },
   'Blood Moon': {bp: 120, category: 'Special', type: 'Normal'},
   'Burning Bulwark': {bp: 0, type: 'Fire', priority: 4},

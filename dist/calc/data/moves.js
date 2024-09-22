@@ -37,7 +37,7 @@ var __values = (this && this.__values) || function(o) {
     };
     throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
 };
-var e_1, _a, e_2, _b;
+var e_1, _a;
 exports.__esModule = true;
 
 var util_1 = require("../util");
@@ -2388,13 +2388,6 @@ var SM_PATCH = {
     },
     'Black Hole Eclipse': { bp: 1, type: 'Dark', category: 'Physical', isZ: true },
     'Bloom Doom': { bp: 1, type: 'Grass', category: 'Physical', isZ: true },
-    'Bouncy Bubble': {
-        bp: 90,
-        type: 'Water',
-        drain: [1, 2],
-        category: 'Special',
-        zp: 175
-    },
     'Breakneck Blitz': { bp: 1, type: 'Normal', category: 'Physical', isZ: true },
     'Buzzy Buzz': {
         bp: 90,
@@ -4128,19 +4121,6 @@ var LGPE_MOVES = [
     'Splishy Splash',
     'Veevee Volley',
 ];
-try {
-    for (var LGPE_MOVES_1 = __values(LGPE_MOVES), LGPE_MOVES_1_1 = LGPE_MOVES_1.next(); !LGPE_MOVES_1_1.done; LGPE_MOVES_1_1 = LGPE_MOVES_1.next()) {
-        var m = LGPE_MOVES_1_1.value;
-        delete SS[m];
-    }
-}
-catch (e_1_1) { e_1 = { error: e_1_1 }; }
-finally {
-    try {
-        if (LGPE_MOVES_1_1 && !LGPE_MOVES_1_1.done && (_a = LGPE_MOVES_1["return"])) _a.call(LGPE_MOVES_1);
-    }
-    finally { if (e_1) throw e_1.error; }
-}
 var SV_PATCH = {
     'Aerial Ace': { isSlicing: true },
     Aeroblast: { isWind: true },
@@ -4262,6 +4242,15 @@ var SV_PATCH = {
         secondaries: true,
         isWind: true,
         target: 'allAdjacentFoes'
+    },
+    'Bouncy Bubble': {
+        bp: 60,
+        type: 'Water',
+        category: 'Special',
+        target: 'allAdjacentFoes',
+        zp: 140,
+        maxPower: 130,
+        drain: [1, 2]
     },
     'Blood Moon': { bp: 120, category: 'Special', type: 'Normal' },
     'Burning Bulwark': { bp: 0, type: 'Fire', priority: 4 },
@@ -4995,11 +4984,11 @@ try {
         gen++;
     }
 }
-catch (e_2_1) { e_2 = { error: e_2_1 }; }
+catch (e_1_1) { e_1 = { error: e_1_1 }; }
 finally {
     try {
-        if (MOVES_1_1 && !MOVES_1_1.done && (_b = MOVES_1["return"])) _b.call(MOVES_1);
+        if (MOVES_1_1 && !MOVES_1_1.done && (_a = MOVES_1["return"])) _a.call(MOVES_1);
     }
-    finally { if (e_2) throw e_2.error; }
+    finally { if (e_1) throw e_1.error; }
 }
 //# sourceMappingURL=moves.js.map
