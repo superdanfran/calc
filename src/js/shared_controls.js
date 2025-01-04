@@ -497,6 +497,9 @@ $(".set-selector").change(function () {
 			if (pok_name == "Mime Jr.") {
 				pok_name = "Mime%20Jr"
 			}
+			if (pok_name == "Aegislash-Shield") {
+				pok_name = "Aegislash"
+			}
 			//this ruined my day
 			var pok = `<img class="trainer-pok right-side" src="http://raw.githubusercontent.com/May8th1995/sprites/master/${pok_name}.png" data-id="${CURRENT_TRAINER_POKS[i].split("]")[1]}" title="${next_poks[i]}, ${next_poks[i]} BP">`
 			trpok_html += pok
