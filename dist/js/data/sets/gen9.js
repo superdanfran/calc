@@ -372,7 +372,7 @@ var SETDEX_SV = {
     }
   },
   "Nickit": {
-    "Aqua Grunt Eddy": {
+    "Aqua Grunt Eddy - Petalburg Woods": {
       "level": 12,
       "ability": "Stakeout",
       "moves": [
@@ -386,10 +386,26 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 18
+    },
+	"Aqua Grunt Eddy - Rusturf Tunnel": {
+      "level": 18,
+      "ability": "Stakeout",
+      "moves": [
+        "Sucker Punch",
+        "Beat Up",
+		"Night Slash",
+		"Play Rough"
+      ],
+      "nature": "Naughty",
+	  "ivs": {
+			  "hp": 10, "at": 10, "df": 10, "sa": 10, "sd": 10, "sp": 10
+		  },
+      "item": "Quick Claw",
+      "index": 65
     }
   },
   "Greavard": {
-    "Aqua Grunt Eddy": {
+    "Aqua Grunt Eddy - Petalburg Woods": {
       "level": 12,
       "ability": "Fluffy",
       "moves": [
@@ -403,6 +419,23 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 19
+    },
+	"Aqua Grunt Eddy - Rusturf Tunnel": {
+      "level": 18,
+	  "teraType": "Dark",
+      "ability": "Fluffy",
+      "moves": [
+        "Ice Fang",
+        "Thief",
+		"Shadow Ball",
+		"Bite"
+      ],
+      "nature": "Relaxed",
+	  "ivs": {
+			  "hp": 10, "at": 10, "df": 10, "sa": 10, "sd": 10, "sp": 10
+		  },
+      "item": "Black Glasses",
+      "index": 66
     }
   },
   "Tarountula": {
@@ -684,6 +717,23 @@ var SETDEX_SV = {
 		  },
       "item": "Oran Berry",
       "index": 39
+    },
+	"Black Belt Cristian": {
+      "level": 19,
+	  "teraType": "Water",
+      "ability": "Guts",
+      "moves": [
+        "Chilling Water",
+        "Low Sweep",
+		"Helping Hand",
+		"Fake Out"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
+		  },
+      "item": "Flame Orb",
+      "index": 97
     }
   },
   "Paras": {
@@ -755,6 +805,20 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 43
+    },
+	"Fisherman Ned": {
+      "level": 16,
+      "ability": "Rain Dish",
+      "moves": [
+        "Rain Dance",
+        "Dual Wingbeat"
+      ],
+      "nature": "Gentle",
+	  "ivs": {
+			  "hp": 1, "at": 10, "df": 10, "sa": 10, "sd": 10, "sp": 10
+		  },
+      "item": "",
+      "index": 68
     }
   },
   "Croagunk": {
@@ -773,6 +837,23 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 44
+    },
+	"Battle Girl Jocelyn": {
+      "level": 19,
+	  "teraType": "Water",
+      "ability": "Dry Skin",
+      "moves": [
+        "Chilling Water",
+		"Low Kick",
+		"Sucker Punch",
+		"Poison Sting"
+      ],
+      "nature": "Naughty",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Sitrus Berry",
+      "index": 94
     }
   },
   "Tandemaus": {
@@ -875,6 +956,21 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 50
+    },
+	"Tuber Hailey": {
+      "level": 16,
+      "ability": "Sand Veil",
+      "moves": [
+        "Coil",
+		"Scale Shot",
+		"Bulldoze"
+      ],
+      "nature": "Lonely",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "",
+      "index": 74
     }
   },
   "Mudbray": {
@@ -1105,6 +1201,587 @@ var SETDEX_SV = {
 		  },
       "item": "Salac Berry",
       "index": 63
+    }
+  },
+  "Impidimp": {
+    "Aqua Grunt Eddy - Rusturf Tunnel": {
+      "level": 18,
+      "ability": "Prankster",
+      "moves": [
+        "Metronome",
+		"Fake Out",
+		"Sucker Punch",
+		"Scary Face"
+      ],
+      "nature": "Impish",
+	  "ivs": {
+			  "hp": 10, "at": 10, "df": 10, "sa": 10, "sd": 10, "sp": 10
+		  },
+      "item": "Safety Goggles",
+      "index": 64
+    }
+  },
+  "Arrokuda": {
+    "Fisherman Ned": {
+      "level": 16,
+      "ability": "Swift Swim",
+      "moves": [
+        "Flip Turn",
+		"Aqua Jet"
+      ],
+      "nature": "Jolly",
+	  "ivs": {
+			  "hp": 10, "at": 10, "df": 10, "sa": 10, "sd": 10, "sp": 10
+		  },
+      "item": "",
+      "index": 67
+    }
+  },
+  "Tirtouga": {
+    "Fisherman Ned": {
+      "level": 16,
+      "ability": "Swift Swim",
+      "moves": [
+        "Flip Turn",
+		"Aqua Jet"
+      ],
+      "nature": "Naughty",
+	  "ivs": {
+			  "hp": 10, "at": 10, "df": 10, "sa": 10, "sd": 10, "sp": 10
+		  },
+      "item": "",
+      "index": 69
+    }
+  },
+  "Magikarp": {
+    "Fisherman Elliot": {
+      "level": 25,
+      "ability": "Rattled",
+      "moves": [
+        "Bounce"
+      ],
+      "nature": "Hardy",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Eviolite",
+      "index": 70
+    }
+  },
+  "Wattrel": {
+    "Sailor Huey": {
+      "level": 16,
+      "ability": "Competitive",
+      "moves": [
+        "Quick Attack",
+		"Discharge",
+		"Pluck"
+      ],
+      "nature": "Rash",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "",
+      "index": 71
+    }
+  },
+  "Inkay": {
+    "Sailor Huey": {
+      "level": 16,
+      "ability": "Suction Cups",
+      "moves": [
+        "Swagger",
+		"Psybeam",
+		"Pluck"
+      ],
+      "nature": "Quiet",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "",
+      "index": 72
+    }
+  },
+  "Hippopotas": {
+    "Tuber Hailey": {
+      "level": 16,
+      "ability": "Sand Stream",
+      "moves": [
+        "Helping Hand",
+		"Protect",
+		"Fire Fang"
+      ],
+      "nature": "Impish",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "",
+      "index": 73
+    }
+  },
+  "Wiglett": {
+    "Sailor Edmond": {
+      "level": 16,
+      "ability": "Sand Veil",
+      "moves": [
+        "Chilling Water",
+		"Sucker Punch",
+		"Aqua Jet"
+      ],
+      "nature": "Brave",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "",
+      "index": 75
+    }
+  },
+  "Sandygast": {
+    "Sailor Edmond": {
+      "level": 16,
+      "ability": "Water Compaction",
+      "moves": [
+        "Sandstorm",
+		"Mega Drain",
+		"Bulldoze"
+      ],
+      "nature": "Gentle",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "",
+      "index": 76
+    }
+  },
+  "Sinistea": {
+    "Tuber Ricky": {
+      "level": 16,
+      "ability": "Cursed Body",
+      "moves": [
+        "Will-O-Wisp",
+		"Mega Drain",
+		"Shadow Ball"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 11, "at": 11, "df": 11, "sa": 11, "sd": 11, "sp": 11
+		  },
+      "item": "",
+      "index": 77
+    }
+  },
+  "Vanillite": {
+    "Tuber Ricky": {
+      "level": 16,
+      "ability": "Weak Armor",
+      "moves": [
+        "Icicle Spear",
+		"Iron Defense",
+		"Hyper Voice"
+      ],
+      "nature": "Bold",
+	  "ivs": {
+			  "hp": 11, "at": 11, "df": 11, "sa": 11, "sd": 11, "sp": 11
+		  },
+      "item": "Eviolite",
+      "index": 78
+    }
+  },
+  "Litwick": {
+    "Tuber Lola & Tuber Chandler": {
+      "level": 16,
+      "ability": "Flame Body",
+      "moves": [
+        "Will-O-Wisp",
+		"Burning Jealousy",
+		"Fire Spin"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 11, "at": 11, "df": 11, "sa": 11, "sd": 11, "sp": 11
+		  },
+      "item": "",
+      "index": 79
+    }
+  },
+  "Scorbunny": {
+    "Tuber Lola & Tuber Chandler": {
+      "level": 16,
+      "ability": "Blaze",
+      "moves": [
+        "Fire Spin",
+		"Trailblaze",
+		"Quick Attack",
+		"Low Kick"
+      ],
+      "nature": "Hasty",
+	  "ivs": {
+			  "hp": 11, "at": 11, "df": 11, "sa": 11, "sd": 11, "sp": 11
+		  },
+      "item": "",
+      "index": 80
+    }
+  },
+  "Frillish": {
+    "Tuber Lola & Tuber Chandler": {
+      "level": 16,
+      "ability": "Water Absorb",
+      "moves": [
+        "Shadow Ball",
+		"Protect",
+		"Will-O-Wisp",
+		"Water Pulse"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 11, "at": 11, "df": 11, "sa": 11, "sd": 11, "sp": 11
+		  },
+      "item": "",
+      "index": 81
+    }
+  },
+  "Wooper-Paldea": {
+    "Tuber Lola & Tuber Chandler": {
+      "level": 16,
+      "ability": "Water Absorb",
+      "moves": [
+        "Chilling Water",
+		"Trailblaze",
+		"Toxic"
+      ],
+      "nature": "Bold",
+	  "ivs": {
+			  "hp": 11, "at": 11, "df": 11, "sa": 11, "sd": 11, "sp": 11
+		  },
+      "item": "",
+      "index": 82
+    }
+  },
+  "Varoom": {
+    "Aqua Grunt Jack": {
+      "level": 18,
+      "ability": "Overcoat",
+      "moves": [
+        "Poison Gas",
+		"Headbutt",
+		"Gyro Ball",
+		"Sludge"
+      ],
+      "nature": "Naughty",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Air Balloon",
+      "index": 83
+    }
+  },
+  "Murkrow": {
+    "Aqua Grunt Jack": {
+      "level": 18,
+      "ability": "Prankster",
+      "moves": [
+        "Confuse Ray",
+		"Thunder Wave",
+		"Mean Look",
+		"U-Turn"
+      ],
+      "nature": "Hasty",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Eviolite",
+      "index": 84
+    }
+  },
+  "Salandit": {
+    "Aqua Grunt Jack": {
+      "level": 18,
+	  "teraType": "Water",
+      "ability": "Oblivious",
+      "moves": [
+        "Trailblaze",
+		"Poison Tail",
+		"Leech Life",
+		"Will-O-Wisp"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Rindo Berry",
+      "index": 85
+    }
+  },
+  "Zorua": {
+    "Aqua Grunt Morgan": {
+      "level": 18,
+      "ability": "Illusion",
+      "moves": [
+        "Knock Off",
+		"Snarl",
+		"Night Shade",
+		"Swift"
+      ],
+      "nature": "Lax",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Eject Pack",
+      "index": 86
+    }
+  },
+  "Woobat": {
+    "Aqua Grunt Morgan": {
+      "level": 18,
+	  "teraType": "Dark",
+      "ability": "Unaware",
+      "moves": [
+        "Confusion",
+		"Attract",
+		"Assurance"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Sitrus Berry",
+      "index": 87
+    }
+  },
+  "Binacle": {
+    "Lady Melanie": {
+      "level": 19,
+      "ability": "Tough Claws",
+      "moves": [
+        "Fury Swipes",
+		"Razor Shell",
+		"Sand Attack",
+		"Rock Blast"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 18, "at": 18, "df": 18, "sa": 18, "sd": 18, "sp": 18
+		  },
+      "item": "",
+      "index": 88
+    }
+  },
+  "Shellder": {
+    "Lady Melanie": {
+      "level": 19,
+      "ability": "Skill Link",
+      "moves": [
+        "Ice Shard",
+		"Chilling Water",
+		"Icicle Spear",
+		"Rock Blast"
+      ],
+      "nature": "Bold",
+	  "ivs": {
+			  "hp": 18, "at": 18, "df": 18, "sa": 18, "sd": 18, "sp": 18
+		  },
+      "item": "",
+      "index": 89
+    }
+  },
+  "Dratini": {
+    "Lady Melanie": {
+      "level": 19,
+	  "teraType": "Water",
+      "ability": "Marvel Scale",
+      "moves": [
+        "Twister",
+		"Chilling Water",
+		"Thunder Wave",
+		"Scale Shot"
+      ],
+      "nature": "Lax",
+	  "ivs": {
+			  "hp": 18, "at": 18, "df": 18, "sa": 18, "sd": 18, "sp": 18
+		  },
+      "item": "",
+      "index": 90
+    }
+  },
+  "Eiscue": {
+    "Parasol Lady Peri": {
+      "level": 19,
+      "ability": "Ice Face",
+      "moves": [
+        "Rain Dance",
+		"Chilling Water",
+		"Powder Snow"
+      ],
+      "nature": "Impish",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "",
+      "index": 91
+    }
+  },
+  "Brionne": {
+    "Parasol Lady Peri": {
+      "level": 19,
+      "ability": "Liquid Voice",
+      "moves": [
+        "Chilling Water",
+		"Disarming Voice",
+		"Sing",
+		"Rain Dance"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "",
+      "index": 92
+    }
+  },
+  "Pincurchin": {
+    "Parasol Lady Peri": {
+      "level": 19,
+	  "teraType": "Water",
+      "ability": "Lightning Rod",
+      "moves": [
+        "Chilling Water",
+		"Thunder Shock",
+		"Thunder Wave",
+		"Rain Dance"
+      ],
+      "nature": "Calm",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "",
+      "index": 93
+    }
+  },
+  "Crabrawler": {
+    "Battle Girl Jocelyn": {
+      "level": 19,
+      "ability": "Iron Fist",
+      "moves": [
+        "Chilling Water",
+		"Jet Punch",
+		"Upper Hand",
+		"Coaching"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Punching Glove",
+      "index": 95
+    }
+  },
+  "Pyukumuku": {
+    "Black Belt Cristian": {
+      "level": 19,
+      "ability": "Innards Out",
+      "moves": [
+        "Rain Dance",
+		"Counter",
+		"Purify",
+		"Taunt"
+      ],
+      "nature": "Hardy",
+	  "ivs": {
+			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
+		  },
+      "item": "Rocky Helmet",
+      "index": 96
+    }
+  },
+  "Mareanie": {
+    "Leader Nessa": {
+      "level": 19,
+      "ability": "Merciless",
+      "moves": [
+        "Wide Guard",
+		"Pin Missile",
+		"Poison Jab",
+		"Venoshock"
+      ],
+      "nature": "Relaxed",
+	  "ivs": {
+			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
+		  },
+      "item": "Black Sludge",
+      "index": 97
+    }
+  },
+  "Drednaw": {
+    "Leader Nessa": {
+      "level": 20,
+      "ability": "Shell Armor",
+      "moves": [
+        "Razor Shell",
+		"Ice Fang",
+		"Protect",
+		"Jaw Lock"
+      ],
+      "nature": "Relaxed",
+	  "ivs": {
+			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
+		  },
+      "item": "Rindo Berry",
+      "index": 98
+    }
+  },
+  "Basculin": {
+    "Leader Nessa": {
+      "level": 20,
+      "ability": "Adaptability",
+      "moves": [
+        "Aqua Jet",
+		"Bite",
+		"Scale Shot",
+		"Headbutt"
+      ],
+      "nature": "Impish",
+	  "ivs": {
+			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
+		  },
+      "item": "Kings Rock",
+      "index": 99
+    }
+  },
+  "Corsola-Galar": {
+    "Leader Nessa": {
+      "level": 20,
+      "ability": "Cursed Body",
+      "moves": [
+        "Ancient Power",
+		"Hex",
+		"Chilling Water",
+		"Protect"
+      ],
+      "nature": "Bold",
+	  "ivs": {
+			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
+		  },
+      "item": "Sitrus Berry",
+      "index": 100
+    }
+  },
+  "Masquerain": {
+    "Leader Nessa": {
+      "level": 21,
+	  "teraType": "Water",
+      "ability": "Intimidate",
+      "moves": [
+        "Chilling Water",
+		"Bug Buzz",
+		"Air Slash",
+		"Stun Spore"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
+		  },
+      "item": "Life Orb",
+      "index": 101
     }
   }
 }
