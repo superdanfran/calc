@@ -2918,7 +2918,7 @@ var SETDEX_SV = {
       "index": 165
     }
   },
-  "Toxtricity": {
+  "Toxtricity-Low-Key": {
     "Guitarist Kirk & Battle Girl Vivian": {
       "level": 30,
       "ability": "Punk Rock",
