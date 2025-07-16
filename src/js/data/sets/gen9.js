@@ -2968,7 +2968,7 @@ var SETDEX_SV = {
 	  "ivs": {
 			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
 		  },
-      "item": "Punching Gloves",
+      "item": "Punching Glove",
       "index": 168
     }
   },
