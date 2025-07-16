@@ -259,7 +259,7 @@ var SETDEX_SV = {
       "ability": "Strong Jaw",
       "moves": [
         "Bite",
-        "Mud Slap"
+        "Mud-Slap"
       ],
       "nature": "Adamant",
 	  "ivs": {
@@ -275,7 +275,7 @@ var SETDEX_SV = {
       "ability": "Mycelium Might",
       "moves": [
         "Mega Drain",
-        "Mud Slap",
+        "Mud-Slap",
 		"Stun Spore"
       ],
       "nature": "Mild",
@@ -327,7 +327,7 @@ var SETDEX_SV = {
       "ability": "Swarm",
       "moves": [
         "Vice Grip",
-        "Mud Slap",
+        "Mud-Slap",
 		"String Shot",
 		"Bug Bite"
       ],
@@ -343,7 +343,7 @@ var SETDEX_SV = {
       "ability": "Swarm",
       "moves": [
         "Vice Grip",
-        "Mud Slap",
+        "Mud-Slap",
 		"String Shot",
 		"Bug Bite"
       ],
@@ -359,7 +359,7 @@ var SETDEX_SV = {
       "ability": "Swarm",
       "moves": [
         "Vice Grip",
-        "Mud Slap",
+        "Mud-Slap",
 		"String Shot",
 		"Bug Bite"
       ],
@@ -375,7 +375,7 @@ var SETDEX_SV = {
       "ability": "Swarm",
       "moves": [
         "Vice Grip",
-        "Mud Slap",
+        "Mud-Slap",
 		"String Shot",
 		"Bug Bite"
       ],
@@ -978,7 +978,7 @@ var SETDEX_SV = {
       "moves": [
         "Brutal Swing",
 		"Glare",
-		"Mud Slap",
+		"Mud-Slap",
 		"Poison Tail"
       ],
       "nature": "Brave",
