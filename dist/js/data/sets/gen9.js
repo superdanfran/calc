@@ -1667,6 +1667,23 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 92
+    },
+	"Guitarist Kirk & Battle Girl Vivian": {
+      "level": 30,
+	  "teraType": "Electric",
+      "ability": "Liquid Voice",
+      "moves": [
+        "Hyper Voice",
+		"Tera Blast",
+		"Helping Hand",
+		"Encore"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Throat Spray",
+      "index": 165
     }
   },
   "Pincurchin": {
@@ -2897,25 +2914,6 @@ var SETDEX_SV = {
 		  },
       "item": "Luminous Moss",
       "index": 164
-    }
-  },
-  "Brionne": {
-    "Guitarist Kirk & Battle Girl Vivian": {
-      "level": 30,
-	  "teraType": "Electric",
-      "ability": "Liquid Voice",
-      "moves": [
-        "Hyper Voice",
-		"Tera Blast",
-		"Helping Hand",
-		"Encore"
-      ],
-      "nature": "Modest",
-	  "ivs": {
-			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
-		  },
-      "item": "Throat Spray",
-      "index": 165
     }
   },
   "Toxtricity-Low-Key": {
