@@ -581,7 +581,7 @@ var SETDEX_SV = {
       "level": 13,
       "ability": "Static",
       "moves": [
-        "Thundershock",
+        "Thunder Shock",
         "Confuse Ray",
 		"Trailblaze",
 		"Thunder Wave"
