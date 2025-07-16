@@ -2,7 +2,7 @@ var SETDEX_SV = {
   "Sprigatito": {
     "Route103 Rival 1 (Quaxly)": {
       "level": 7,
-      "ability": "Protean",
+      "ability": "Overgrow",
       "moves": [
         "Scratch",
         "Tail Whip"
@@ -35,7 +35,7 @@ var SETDEX_SV = {
   "Fuecoco": {
     "Route103 Rival 2 (Sprigatito)": {
       "level": 7,
-      "ability": "Unaware",
+      "ability": "Blaze",
       "moves": [
         "Tackle",
         "Leer"
@@ -68,7 +68,7 @@ var SETDEX_SV = {
   "Quaxly": {
     "Route103 Rival 3 (Fuecoco)": {
       "level": 7,
-      "ability": "Moxie",
+      "ability": "Torrent",
       "moves": [
         "Pound",
         "Growl"
@@ -235,6 +235,22 @@ var SETDEX_SV = {
 		  },
       "item": "Oran Berry",
       "index": 9
+    },
+	"Pokemon Breeder Isaac": {
+      "level": 26,
+	  "teraType": "Normal",
+      "ability": "Adaptability",
+      "moves": [
+        "Quick Attack",
+        "Swift",
+        "Baby-Doll Eyes"
+      ],
+      "nature": "Hardy",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Eviolite",
+      "index": 142
     }
   },
   "Yungoos": {
@@ -698,6 +714,21 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 38
+    },
+	"Pokemon Breeder Lydia": {
+      "level": 26,
+      "ability": "Guts",
+      "moves": [
+        "Fake Out",
+		"Bulk Up",
+		"Brick Break"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Flame Orb",
+      "index": 154
     }
   },
   "Makuhita": {
@@ -1691,6 +1722,21 @@ var SETDEX_SV = {
 		  },
       "item": "Rocky Helmet",
       "index": 96
+    },
+	"Fisherman Dale": {
+      "level": 26,
+      "ability": "Innards Out",
+      "moves": [
+        "Toxic",
+		"Protect",
+		"Venom Drench"
+      ],
+      "nature": "Calm",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 130
     }
   },
   "Mareanie": {
@@ -1727,6 +1773,22 @@ var SETDEX_SV = {
 		  },
       "item": "Rindo Berry",
       "index": 98
+    },
+	"Fisherman Dale": {
+      "level": 26,
+      "ability": "Strong Jaw",
+      "moves": [
+        "Crunch",
+		"Ice Fang",
+		"Smart Strike",
+		"Waterfall"
+      ],
+      "nature": "Impish",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 129
     }
   },
   "Basculin": {
@@ -1782,6 +1844,1314 @@ var SETDEX_SV = {
 		  },
       "item": "Life Orb",
       "index": 101
+    }
+  },
+  "Gyarados": {
+    "Pokefan Kaleb & Pokefan Isabel": {
+      "level": 26,
+      "ability": "Moxie",
+      "moves": [
+        "Crunch",
+		"Waterfall",
+		"Rain Dance"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 102
+    }
+  },
+  "Corvisquire": {
+    "Pokefan Kaleb & Pokefan Isabel": {
+      "level": 26,
+      "ability": "Big Pecks",
+      "moves": [
+        "Pluck",
+		"Hone Claws"
+      ],
+      "nature": "Brave",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 103
+    }
+  },
+  "Plusle": {
+    "Pokefan Kaleb & Pokefan Isabel": {
+      "level": 26,
+	  "teraType": "Flying",
+      "ability": "Lightning Rod",
+      "moves": [
+        "Nuzzle",
+		"Helping Hand",
+		"Thunderbolt"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 104
+    }
+  },
+  "Minun": {
+    "Pokefan Kaleb & Pokefan Isabel": {
+      "level": 26,
+      "ability": "Volt Absorb",
+      "moves": [
+        "Electroweb",
+		"Helping Hand",
+		"Alluring Voice"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Oran Berry",
+      "index": 105
+    }
+  },
+  "Naclstack": {
+    "Youngster Timmy": {
+      "level": 26,
+      "ability": "Purifying Salt",
+      "moves": [
+        "Salt Cure",
+		"Body Press",
+		"Stomping Tantrum"
+      ],
+      "nature": "Impish",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Eviolite",
+      "index": 106
+    }
+  },
+  "Boltund": {
+    "Youngster Timmy": {
+      "level": 26,
+      "ability": "Strong Jaw",
+      "moves": [
+        "Crunch",
+		"Thunder Fang",
+		"Fire Fang"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Lum Berry",
+      "index": 107
+    },
+	"Youngster Ben": {
+      "level": 30,
+      "ability": "Strong Jaw",
+      "moves": [
+        "Crunch",
+		"Thunder Fang",
+		"Fire Fang"
+      ],
+      "nature": "Jolly",
+	  "ivs": {
+			  "hp": 18, "at": 18, "df": 18, "sa": 18, "sd": 18, "sp": 18
+		  },
+      "item": "Choice Band",
+      "index": 173
+    }
+  },
+  "Gimmighoul": {
+    "Collector Edwin & Guitarist Joseph (1)": {
+      "level": 26,
+      "ability": "Run Away",
+      "moves": [
+        "Confuse Ray",
+		"Light Screen",
+		"Reflect",
+		"Protect"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 108
+    },
+	"Collector Edwin & Guitarist Joseph (2)": {
+      "level": 26,
+      "ability": "Rattled",
+      "moves": [
+        "Shadow Ball",
+		"Confuse Ray",
+		"Power Gem",
+		"Protect"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 109
+    }
+  },
+  "Dottler": {
+    "Collector Edwin & Guitarist Joseph": {
+      "level": 26,
+      "ability": "Telepathy",
+      "moves": [
+        "Sticky Web",
+		"Shadow Ball",
+		"Trick Room",
+		"Protect"
+      ],
+      "nature": "Calm",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Eviolite",
+      "index": 110
+    }
+  },
+  "Bellibolt": {
+    "Collector Edwin & Guitarist Joseph": {
+      "level": 26,
+      "ability": "Electromorphosis",
+      "moves": [
+        "Charge Beam",
+		"Hyper Voice",
+		"Thunder Wave"
+      ],
+      "nature": "Bold",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 111
+    }
+  },
+  "Nosepass": {
+    "Route110 Rival 1 (Quaxly)": {
+      "level": 27,
+      "ability": "Sturdy",
+      "moves": [
+        "Helping Hand",
+		"Rock Tomb",
+		"Spark",
+		"Sand Tomb"
+      ],
+      "nature": "Relaxed",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Leftovers",
+      "index": 112
+    }
+  },
+  "Poliwhirl": {
+    "Route110 Rival 1 (Quaxly)": {
+      "level": 27,
+      "ability": "Water Absorb",
+      "moves": [
+        "Helping Hand",
+		"Taunt",
+		"Dragon Cheer",
+		"Chilling Water"
+      ],
+      "nature": "Bold",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Eviolite",
+      "index": 113
+    }
+  },
+  "Floragato": {
+    "Route110 Rival 1 (Quaxly)": {
+      "level": 28,
+	  "teraType": "Grass",
+      "ability": "Overgrow",
+      "moves": [
+        "Seed Bomb",
+		"Hone Claws",
+		"Low Kick",
+		"Aerial Ace"
+      ],
+      "nature": "Hasty",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Expert Belt",
+      "index": 114
+    }
+  },
+  "Litleo": {
+    "Route110 Rival 1 (Quaxly)": {
+      "level": 27,
+      "ability": "Unnerve",
+      "moves": [
+        "Will-O-Wisp",
+		"Fire Spin",
+		"Snarl",
+		"Headbutt"
+      ],
+      "nature": "Hardy",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Bright Powder",
+      "index": 115
+    }
+  },
+  "Gurdurr": {
+    "Route110 Rival 1 (Quaxly)": {
+      "level": 27,
+      "ability": "Guts",
+      "moves": [
+        "Mach Punch",
+		"Bullet Punch",
+		"Ice Punch",
+		"Fire Punch"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Flame Orb",
+      "index": 116
+    }
+  },
+  "Fletchinder": {
+    "Route110 Rival 2 (Sprigatito)": {
+      "level": 27,
+      "ability": "Gale Wings",
+      "moves": [
+        "Air Slash",
+		"Tailwind",
+		"Flame Charge",
+		"Steel Wing"
+      ],
+      "nature": "Jolly",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Rocky Helmet",
+      "index": 117
+    }
+  },
+  "Charjabug": {
+    "Route110 Rival 2 (Sprigatito)": {
+      "level": 27,
+      "ability": "Battery",
+      "moves": [
+        "Sticky Web",
+		"Thunder Wave",
+		"Lunge",
+		"Volt Switch"
+      ],
+      "nature": "Bold",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Eviolite",
+      "index": 118
+    }
+  },
+  "Azumarill": {
+    "Route110 Rival 2 (Sprigatito)": {
+      "level": 27,
+      "ability": "Huge Power",
+      "moves": [
+        "Aqua Jet",
+		"Aqua Tail",
+		"Body Slam",
+		"Brick Break"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Sitrus Berry",
+      "index": 119
+    }
+  },
+  "Crocalor": {
+    "Route110 Rival 2 (Sprigatito)": {
+      "level": 28,
+	  "teraType": "Fire",
+      "ability": "Blaze",
+      "moves": [
+        "Flamethrower",
+		"Seed Bomb",
+		"Will-O-Wisp",
+		"Crunch"
+      ],
+      "nature": "Mild",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Leftovers",
+      "index": 120
+    }
+  },
+  "Swadloon": {
+    "Route110 Rival 2 (Sprigatito)": {
+      "level": 27,
+      "ability": "Chlorophyll",
+      "moves": [
+        "Magical Leaf",
+		"Bug Bite",
+		"Electroweb",
+		"Sunny Day"
+      ],
+      "nature": "Hasty",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Coba Berry",
+      "index": 121
+    }
+  },
+  "Luxio": {
+    "Route110 Rival 3 (Fuecoco)": {
+      "level": 27,
+      "ability": "Intimidate",
+      "moves": [
+        "Crunch",
+		"Fire Fang",
+		"Ice Fang",
+		"Thunder Fang"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Eviolite",
+      "index": 122
+    }
+  },
+  "Vullaby": {
+    "Route110 Rival 3 (Fuecoco)": {
+      "level": 27,
+      "ability": "Big Pecks",
+      "moves": [
+        "Foul Play",
+		"Feather Dance",
+		"Toxic",
+		"Dual Wingbeat"
+      ],
+      "nature": "Naughty",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Leftovers",
+      "index": 123
+    }
+  },
+  "Gloom": {
+    "Route110 Rival 3 (Fuecoco)": {
+      "level": 27,
+      "ability": "Chlorophyll",
+      "moves": [
+        "Leech Seed",
+		"Giga Drain",
+		"Venoshock",
+		"Synthesis"
+      ],
+      "nature": "Gentle",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Black Sludge",
+      "index": 124
+    }
+  },
+  "Quaxwell": {
+    "Route110 Rival 3 (Fuecoco)": {
+      "level": 28,
+	  "teraType": "Water",
+      "ability": "Torrent",
+      "moves": [
+        "Aqua Jet",
+		"Low Kick",
+		"Air Slash",
+		"Rapid Spin"
+      ],
+      "nature": "Lonely",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Mystic Water",
+      "index": 125
+    }
+  },
+  "Lampent": {
+    "Route110 Rival 3 (Fuecoco)": {
+      "level": 27,
+      "ability": "Flame Body",
+      "moves": [
+        "Will-O-Wisp",
+		"Burning Jealousy",
+		"Dark Pulse",
+		"Hex"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Focus Sash",
+      "index": 126
+    }
+  },
+  "Pikachu": {
+    "Triathlete Alyssa": {
+      "level": 26,
+      "ability": "Static",
+      "moves": [
+        "Agility",
+		"Nuzzle",
+		"Electro Ball"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 127
+    }
+  },
+  "Indeedee-F": {
+    "Psychic Edward": {
+      "level": 26,
+      "ability": "Psychic Surge",
+      "moves": [
+        "Psybeam",
+		"Helping Hand",
+		"Endure"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 128
+    }
+  },
+  "Araquanid": {
+    "Fisherman Dale": {
+      "level": 26,
+      "ability": "Water Bubble",
+      "moves": [
+        "Aqua Ring",
+		"Liquidation",
+		"Leech Life",
+		"Rest"
+      ],
+      "nature": "Careful",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 131
+    }
+  },
+  "Greedent": {
+    "Twins Anna & Meg": {
+      "level": 26,
+      "ability": "Cheek Pouch",
+      "moves": [
+        "Body Slam",
+		"Seed Bomb",
+		"Rest",
+		"Sleep Talk"
+      ],
+      "nature": "Impish",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Sitrus Berry",
+      "index": 132
+    }
+  },
+  "Cyclizar": {
+    "Twins Anna & Meg": {
+      "level": 26,
+      "ability": "Regenerator",
+      "moves": [
+        "U-Turn",
+		"Shed Tail",
+		"Shift Gear",
+		"Breaking Swipe"
+      ],
+      "nature": "Naive",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 133
+    }
+  },
+  "Scovillain": {
+    "Twins Anna & Meg": {
+      "level": 26,
+      "ability": "Moody",
+      "moves": [
+        "Fire Fang",
+		"Flamethrower",
+		"Spicy Extract",
+		"Seed Bomb"
+      ],
+      "nature": "Mild",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Red Card",
+      "index": 134
+    }
+  },
+  "Combusken": {
+    "Triathlete Dylan": {
+      "level": 26,
+      "ability": "Speed Boost",
+      "moves": [
+        "Flame Charge",
+		"Double Kick",
+		"Aerial Ace"
+      ],
+      "nature": "Hasty",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Absorb Bulb",
+      "index": 135
+    }
+  },
+  "Grovyle": {
+    "Triathlete Dylan": {
+      "level": 26,
+      "ability": "Unburden",
+      "moves": [
+        "Trailblaze",
+		"Giga Drain",
+		"Low Sweep"
+      ],
+      "nature": "Naive",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Salac Berry",
+      "index": 136
+    }
+  },
+  "Cetoddle": {
+    "Pokemon Breeder Isaac": {
+      "level": 26,
+      "ability": "Thick Fat",
+      "moves": [
+        "Ice Shard",
+		"Take Down",
+		"Rest"
+      ],
+      "nature": "Gentle",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Lum Berry",
+      "index": 137
+    }
+  },
+  "Tinkatink": {
+    "Pokemon Breeder Isaac": {
+      "level": 26,
+      "ability": "Own Tempo",
+      "moves": [
+        "Metal Claw",
+		"Brutal Swing",
+		"Pounce",
+		"Play Rough"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Assault Vest",
+      "index": 138
+    }
+  },
+  "Zorua-Hisui": {
+    "Pokemon Breeder Isaac": {
+      "level": 26,
+      "ability": "Illusion",
+      "moves": [
+        "Trick",
+		"Swift",
+		"U-turn"
+      ],
+      "nature": "Hasty",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Iron Ball",
+      "index": 139
+    }
+  },
+  "Poochyena": {
+    "Pokemon Breeder Isaac": {
+      "level": 26,
+      "ability": "Strong Jaw",
+      "moves": [
+        "Bite"
+      ],
+      "nature": "Lonely",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Choice Band",
+      "index": 140
+    }
+  },
+  "Fletchling": {
+    "Pokemon Breeder Isaac": {
+      "level": 26,
+      "ability": "Gale Wings",
+      "moves": [
+        "Fly",
+		"Brave Bird"
+      ],
+      "nature": "Naughty",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Sharp Beak",
+      "index": 141
+    }
+  },
+  "Ribombee": {
+    "Triathlete Maria": {
+      "level": 26,
+      "ability": "Dazzling",
+      "moves": [
+        "Pollen Puff",
+		"Draining Kiss"
+      ],
+      "nature": "Serious",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Honey",
+      "index": 143
+    }
+  },
+  "Accelgor": {
+    "Triathlete Maria": {
+      "level": 26,
+      "ability": "Unburden",
+      "moves": [
+        "Struggle Bug",
+		"Giga Drain"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Lum Berry",
+      "index": 144
+    }
+  },
+  "Electabuzz": {
+    "Triathlete Melina & Battle Girl Aisha": {
+      "level": 26,
+	  "teraType": "Fighting",
+      "ability": "Vital Spirit",
+      "moves": [
+        "Low Sweep",
+		"Helping Hand",
+		"Thunder Punch"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 145
+    }
+  },
+  "Sawk": {
+    "Triathlete Melina & Battle Girl Aisha": {
+      "level": 26,
+      "ability": "Inner Focus",
+      "moves": [
+        "Low Sweep",
+		"Helping Hand",
+		"Zen Headbutt",
+		"Ice Punch"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 146
+    }
+  },
+  "Throh": {
+    "Triathlete Melina & Battle Girl Aisha": {
+      "level": 26,
+      "ability": "Inner Focus",
+      "moves": [
+        "Circle Throw",
+		"Fling",
+		"Rock Slide"
+      ],
+      "nature": "Impish",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Syrupy Apple",
+      "index": 147
+    }
+  },
+  "Spidops": {
+    "Bug Maniac Derek": {
+      "level": 26,
+      "ability": "Stakeout",
+      "moves": [
+        "Sticky Web",
+		"Skitter Smack",
+		"Silk Trap",
+		"Toxic Spikes"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 148
+    }
+  },
+  "Vivillon": {
+    "Bug Maniac Derek": {
+      "level": 26,
+      "ability": "Compound Eyes",
+      "moves": [
+        "Sleep Powder",
+		"Air Slash",
+		"Struggle Bug"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 149
+    }
+  },
+  "Riolu": {
+    "Pokemon Breeder Lydia": {
+      "level": 26,
+      "ability": "Prankster",
+      "moves": [
+        "Helping Hand",
+		"Coaching",
+		"Sunny Day",
+		"Vacuum Wave"
+      ],
+      "nature": "Gentle",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 150
+    }
+  },
+  "Magby": {
+    "Pokemon Breeder Lydia": {
+      "level": 26,
+      "ability": "Flame Body",
+      "moves": [
+        "Helping Hand",
+		"Ember",
+		"Sunny Day",
+		"Acid Spray"
+      ],
+      "nature": "Quiet",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 151
+    }
+  },
+  "Budew": {
+    "Pokemon Breeder Lydia": {
+      "level": 26,
+      "ability": "Leaf Guard",
+      "moves": [
+        "Giga Drain",
+		"Sunny Day",
+		"Weather Ball"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 152
+    }
+  },
+  "Cleffa": {
+    "Pokemon Breeder Lydia": {
+      "level": 26,
+      "ability": "Friend Guard",
+      "moves": [
+        "Metronome",
+		"Reflect",
+		"Light Screen",
+		"Helping Hand"
+      ],
+      "nature": "Impish",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 153
+    }
+  },
+  "Bonsly": {
+    "Pokemon Breeder Lydia": {
+      "level": 26,
+      "ability": "Sturdy",
+      "moves": [
+        "Sucker Punch",
+		"Counter",
+		"Flail"
+      ],
+      "nature": "Bold",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 155
+    }
+  },
+  "Elgyem": {
+    "Psychic Brandi": {
+      "level": 26,
+      "ability": "Synchronize",
+      "moves": [
+        "Trick Room",
+		"Protect",
+		"Light Screen",
+		"Reflect"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 156
+    }
+  },
+  "Slowpoke-Galar": {
+    "Psychic Brandi": {
+      "level": 26,
+      "ability": "Own Tempo",
+      "moves": [
+        "Slack Off",
+		"Trick Room",
+		"Zen Headbutt",
+		"Skill Swap"
+      ],
+      "nature": "Quiet",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Room Service",
+      "index": 157
+    }
+  },
+  "Gothorita": {
+    "Psychic Brandi": {
+      "level": 26,
+      "ability": "Shadow Tag",
+      "moves": [
+        "Psychic Terrain",
+		"Helping Hand",
+		"Trick Room",
+		"Dark Pulse"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 158
+    }
+  },
+  "Charcadet": {
+    "Rival Wally - Mauville": {
+      "level": 28,
+      "ability": "Flame Body",
+      "moves": [
+        "Flame Charge",
+		"Clear Smog",
+		"Night Shade",
+		"Incinerate"
+      ],
+      "nature": "Hardy",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Wise Glasses",
+      "index": 159
+    }
+  },
+  "Dreepy": {
+    "Rival Wally - Mauville": {
+      "level": 28,
+      "ability": "Clear Body",
+      "moves": [
+        "Confuse Ray",
+		"Infestation",
+		"Quick Attack",
+		"Bite"
+      ],
+      "nature": "Jolly",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Quick Claw",
+      "index": 160
+    }
+  },
+  "Clodsire": {
+    "Elite Four Rika": {
+      "level": 30,
+      "ability": "Water Absorb",
+      "moves": [
+        "Stomping Tantrum",
+		"Poison Jab",
+		"Toxic Spikes",
+		"Heavy Slam"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Life Orb",
+      "index": 161
+    }
+  },
+  "Zygarde-10%": {
+    "Elite Four Rika": {
+      "level": 30,
+      "ability": "Aura Break",
+      "moves": [
+        "Dragon Breath",
+		"Bulldoze",
+		"Stomping Tantrum",
+		"Thousand Arrows"
+      ],
+      "nature": "Hardy",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Yache Berry",
+      "index": 162
+    }
+  },
+  "Toedscruel": {
+    "Elite Four Rika": {
+      "level": 30,
+      "ability": "Mycelium Might",
+      "moves": [
+        "Earth Power",
+		"Giga Drain",
+		"Spore",
+		"Leech Seed"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Weakness Policy",
+      "index": 163
+    }
+  },
+  "Dondozo": {
+    "Elite Four Rika": {
+      "level": 32,
+	  "teraType": "Ground",
+      "ability": "Unaware",
+      "moves": [
+        "Chilling Water",
+		"Stomping Tantrum",
+		"Noble Roar",
+		"Body Press"
+      ],
+      "nature": "Relaxed",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Luminous Moss",
+      "index": 164
+    }
+  },
+  "Brionne": {
+    "Guitarist Kirk & Battle Girl Vivian": {
+      "level": 30,
+	  "teraType": "Electric",
+      "ability": "Liquid Voice",
+      "moves": [
+        "Hyper Voice",
+		"Tera Blast",
+		"Helping Hand",
+		"Encore"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Throat Spray",
+      "index": 165
+    }
+  },
+  "Toxtricity": {
+    "Guitarist Kirk & Battle Girl Vivian": {
+      "level": 30,
+      "ability": "Punk Rock",
+      "moves": [
+        "Hyper Voice",
+		"Throat Chop",
+		"Snarl",
+		"Protect"
+      ],
+      "nature": "Quiet",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Wise Glasses",
+      "index": 166
+    }
+  },
+  "Hitmonchan": {
+    "Guitarist Kirk & Battle Girl Vivian": {
+      "level": 30,
+	  "teraType": "Electric",
+      "ability": "Iron Fist",
+      "moves": [
+        "Thunder Punch",
+		"Bullet Punch",
+		"Mach Punch"
+      ],
+      "nature": "Brave",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Muscle Band",
+      "index": 167
+    }
+  },
+  "Pawmo": {
+    "Guitarist Kirk & Battle Girl Vivian": {
+      "level": 30,
+      "ability": "Iron Fist",
+      "moves": [
+        "Thunder Punch",
+		"Arm Thrust",
+		"Low Sweep",
+		"Grass Knot"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Punching Gloves",
+      "index": 168
+    }
+  },
+  "Rotom": {
+    "Guitarist Shawn & Bug Maniac Angelo": {
+      "level": 30,
+      "ability": "Levitate",
+      "moves": [
+        "Electro Ball",
+		"Volt Switch",
+		"Eerie Impulse"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Assault Vest",
+      "index": 169
+    }
+  },
+  "Bronzong": {
+    "Guitarist Shawn & Bug Maniac Angelo": {
+      "level": 30,
+	  "teraType": "Electric",
+      "ability": "Levitate",
+      "moves": [
+        "Charge Beam",
+		"Confuse Ray",
+		"Hex",
+		"Hypnosis"
+      ],
+      "nature": "Quiet",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Magnet",
+      "index": 170
+    }
+  },
+  "Vikavolt": {
+    "Guitarist Shawn & Bug Maniac Angelo": {
+      "level": 30,
+	  "teraType": "Electric",
+      "ability": "Levitate",
+      "moves": [
+        "Thunderbolt",
+		"Sticky Web",
+		"Bulldoze",
+		"Bug Buzz"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Lum Berry",
+      "index": 171
+    }
+  },
+  "Galvantula": {
+    "Guitarist Shawn & Bug Maniac Angelo": {
+      "level": 30,
+      "ability": "Swarm",
+      "moves": [
+        "Electroweb",
+		"Electro Ball",
+		"Pounce"
+      ],
+      "nature": "Hasty",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Charti Berry",
+      "index": 172
+    }
+  },
+  "Mightyena": {
+    "Youngster Ben": {
+      "level": 30,
+	  "teraType": "Electric",
+      "ability": "Strong Jaw",
+      "moves": [
+        "Thunder Fang",
+		"Fire Fang",
+		"Ice Fang",
+		"Psychic Fangs"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 18, "at": 18, "df": 18, "sa": 18, "sd": 18, "sp": 18
+		  },
+      "item": "Muscle Band",
+      "index": 174
+    }
+  },
+  "Electrode-Hisui": {
+    "Gym Leader Wattson": {
+      "level": 31,
+      "ability": "Soundproof",
+      "moves": [
+        "Energy Ball",
+		"Supercell Slam",
+		"Volt Switch",
+		"Explosion"
+      ],
+      "nature": "Hasty",
+	  "ivs": {
+			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
+		  },
+      "item": "Normal Gem",
+      "index": 175
+    }
+  },
+  "Stunfisk": {
+    "Gym Leader Wattson": {
+      "level": 31,
+      "ability": "Static",
+      "moves": [
+        "Electric Terrain",
+		"Sucker Punch",
+		"Pounce",
+		"Thunderbolt"
+      ],
+      "nature": "Serious",
+	  "ivs": {
+			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
+		  },
+      "item": "Rocky Helmet",
+      "index": 176
+    }
+  },
+  "Golem-Alola": {
+    "Gym Leader Wattson": {
+      "level": 31,
+      "ability": "Galvanize",
+      "moves": [
+        "Hyper Beam",
+		"Thunder Punch",
+		"Body Slam",
+		"Body Press"
+      ],
+      "nature": "Sassy",
+	  "ivs": {
+			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
+		  },
+      "item": "Quick Claw",
+      "index": 177
+    }
+  },
+  "Kilowattrel": {
+    "Gym Leader Wattson": {
+      "level": 31,
+      "ability": "Competitive",
+      "moves": [
+        "Dual Wingbeat",
+		"Volt Switch",
+		"Tailwind",
+		"Electric Terrain"
+      ],
+      "nature": "Jolly",
+	  "ivs": {
+			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
+		  },
+      "item": "Magnet",
+      "index": 178
+    }
+  },
+  "Porygon-Z": {
+    "Gym Leader Wattson": {
+      "level": 32,
+	  "teraType": "Electric",
+      "ability": "Analytic",
+      "moves": [
+        "Magnet Rise",
+		"Charge Beam",
+		"Thunder Wave",
+		"Psychic"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Electric Seed",
+      "index": 179
     }
   }
 }
