@@ -3144,7 +3144,7 @@ var SETDEX_SV = {
         "Magnet Rise",
 		"Charge Beam",
 		"Thunder Wave",
-		"Psychic"
+		"Tri Attack"
       ],
       "nature": "Modest",
 	  "ivs": {
