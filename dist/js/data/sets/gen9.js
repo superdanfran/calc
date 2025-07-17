@@ -2143,7 +2143,7 @@ var SETDEX_SV = {
   "Fletchinder": {
     "Route110 Rival 2 (Sprigatito)": {
       "level": 27,
-      "ability": "Gale Wings",
+      "ability": "Flame Body",
       "moves": [
         "Air Slash",
 		"Tailwind",
@@ -2165,8 +2165,8 @@ var SETDEX_SV = {
       "moves": [
         "Sticky Web",
 		"Thunder Wave",
-		"Lunge",
-		"Volt Switch"
+		"Bug Bite",
+		"Spark"
       ],
       "nature": "Bold",
 	  "ivs": {
@@ -2182,9 +2182,9 @@ var SETDEX_SV = {
       "ability": "Huge Power",
       "moves": [
         "Aqua Jet",
-		"Aqua Tail",
-		"Body Slam",
-		"Brick Break"
+		"Bubble Beam",
+		"Ice Punch",
+		"Disarming Voice"
       ],
       "nature": "Adamant",
 	  "ivs": {
@@ -2200,10 +2200,10 @@ var SETDEX_SV = {
 	  "teraType": "Fire",
       "ability": "Blaze",
       "moves": [
-        "Flamethrower",
-		"Seed Bomb",
+        "Incinerate",
+		"Snarl",
 		"Will-O-Wisp",
-		"Crunch"
+		"Fire Spin"
       ],
       "nature": "Mild",
 	  "ivs": {
@@ -2219,9 +2219,9 @@ var SETDEX_SV = {
       "ability": "Chlorophyll",
       "moves": [
         "Magical Leaf",
-		"Bug Bite",
+		"Pounce",
 		"Electroweb",
-		"Sunny Day"
+		"Razor Leaf"
       ],
       "nature": "Hasty",
 	  "ivs": {
@@ -3150,6 +3150,78 @@ var SETDEX_SV = {
 		  },
       "item": "Electric Seed",
       "index": 179
+    }
+  },
+  "Comfey": {
+    "Aroma Lady Celina & Camper Tyron": {
+      "level": 34,
+      "ability": "Flower Veil",
+      "moves": [
+        "Grassy Terrain",
+		"Grass Knot",
+		"Draining Kiss",
+		"Pollen Puff"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Grassy Seed",
+      "index": 180
+    }
+  },
+  "Eldegoss": {
+    "Aroma Lady Celina & Camper Tyron": {
+      "level": 34,
+      "ability": "Cotton Down",
+      "moves": [
+        "Grassy Terrain",
+		"Giga Drain",
+		"Hyper Voice",
+		"Pollen Puff"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Sitrus Berry",
+      "index": 181
+    }
+  },
+  "Tsareena": {
+    "Aroma Lady Celina & Camper Tyron": {
+      "level": 34,
+      "ability": "Queenly Majesty",
+      "moves": [
+        "Triple Axel",
+		"Grassy Glide",
+		"Play Rough",
+		"Acrobatics"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Adrenaline Orb",
+      "index": 182
+    }
+  },
+  "Flapple": {
+    "Aroma Lady Celina & Camper Tyron": {
+      "level": 34,
+      "ability": "Gluttony",
+      "moves": [
+        "Grav Apple",
+		"Dragon Rush",
+		"Air Slash",
+		"Pounce"
+      ],
+      "nature": "Hasty",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Iapapa Berry",
+      "index": 183
     }
   }
 }
