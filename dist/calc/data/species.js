@@ -7526,7 +7526,7 @@ var SS_PATCH = {
         otherFormes: ['Darmanitan-Galar', 'Darmanitan-Galar-Zen', 'Darmanitan-Zen']
     },
     Darumaka: { otherFormes: ['Darumaka-Galar'] },
-    Eevee: { otherFormes: ['Eevee-Gmax'] },
+    Eevee: { otherFormes: ['Eevee-Gmax', 'Eevee-Starter'] },
     Equilibra: { bs: { sa: 133 } },
     'Farfetch\u2019d': { otherFormes: ['Farfetch\u2019d-Galar'] },
     Garbodor: { otherFormes: ['Garbodor-Gmax'] },
@@ -8992,7 +8992,6 @@ var PLA_PATCH = {
 };
 var SS = (0, util_1.extend)(true, {}, SM, SS_PATCH, PLA_PATCH);
 delete SS['Pikachu-Starter'];
-delete SS['Eevee-Starter'];
 var SV_PATCH = {
     Bisharp: { nfe: true },
     Cresselia: { bs: { df: 110, sd: 120 } },

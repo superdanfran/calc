@@ -1538,6 +1538,22 @@ var SETDEX_SV = {
 		  },
       "item": "Eviolite",
       "index": 84
+    },
+	"Picnicker Carol": {
+      "level": 35,
+      "ability": "Prankster",
+      "moves": [
+        "Tailwind",
+		"Quash",
+		"Air Cutter",
+		"Confuse Ray"
+      ],
+      "nature": "Bold",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Eviolite",
+      "index": 207
     }
   },
   "Salandit": {
@@ -2190,6 +2206,22 @@ var SETDEX_SV = {
 		  },
       "item": "Sitrus Berry",
       "index": 119
+    },
+	"Picnicker Irene": {
+      "level": 34,
+      "ability": "Huge Power",
+      "moves": [
+        "Play Rough",
+		"Liquidation",
+		"Body Slam",
+		"Belly Drum"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Sitrus Berry",
+      "index": 197
     }
   },
   "Crocalor": {
@@ -2609,6 +2641,19 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 146
+    },
+	"Hiker Brice & Hiker Trent": {
+      "level": 34,
+      "ability": "Sturdy",
+      "moves": [
+        "Retaliate"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Life Orb",
+      "index": 211
     }
   },
   "Throh": {
@@ -2893,6 +2938,22 @@ var SETDEX_SV = {
 		  },
       "item": "Weakness Policy",
       "index": 163
+    },
+	"Picnicker Bianca & Kindler Hayden": {
+      "level": 34,
+      "ability": "Mycelium Might",
+      "moves": [
+        "Earth Power",
+		"Giga Drain",
+		"Spore",
+		"Screech"
+      ],
+      "nature": "Quiet",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Mental Herb",
+      "index": 184
     }
   },
   "Dondozo": {
@@ -3166,6 +3227,22 @@ var SETDEX_SV = {
 		  },
       "item": "Grassy Seed",
       "index": 180
+    },
+	"Camper Larry": {
+      "level": 34,
+      "ability": "Flower Veil",
+      "moves": [
+        "Floral Healing",
+		"Leech Seed",
+		"Helping Hand",
+		"Grassy Terrain"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Grassy Seed",
+      "index": 204
     }
   },
   "Eldegoss": {
@@ -3220,6 +3297,615 @@ var SETDEX_SV = {
 		  },
       "item": "Iapapa Berry",
       "index": 183
+    }
+  },
+  "Whimsicott": {
+    "Picnicker Bianca & Kindler Hayden": {
+      "level": 34,
+      "ability": "Prankster",
+      "moves": [
+        "Tickle",
+		"Helping Hand",
+		"Cotton Spore",
+		"Dazzling Gleam"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Ability Shield",
+      "index": 185
+    },
+	"Vivi Winstrate": {
+      "level": 42,
+      "ability": "Prankster",
+      "moves": [
+        "Light Screen",
+		"Misty Terrain",
+		"Stun Spore",
+		"Dazzling Gleam"
+      ],
+      "nature": "Quirky",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Misty Seed",
+      "index": 193
+    }
+  },
+  "Marowak-Alola": {
+    "Picnicker Bianca & Kindler Hayden": {
+      "level": 34,
+      "ability": "Cursed Body",
+      "moves": [
+        "Shadow Bone",
+		"Bone Rush",
+		"Bonemerang",
+		"Fling"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Thick Club",
+      "index": 186
+    }
+  },
+  "Tauros-Paldea-Blaze": {
+    "Picnicker Bianca & Kindler Hayden": {
+      "level": 34,
+      "ability": "Cud Chew",
+      "moves": [
+        "Raging Bull",
+		"Trailblaze",
+		"Double Kick",
+		"Bulk Up"
+      ],
+      "nature": "Lonely",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Sitrus Berry",
+      "index": 187
+    }
+  },
+  "Staraptor": {
+    "Victor Winstrate": {
+      "level": 42,
+	  "teraType": "Fighting",
+      "ability": "Reckless",
+      "moves": [
+        "Brave Bird",
+		"Take Down",
+		"Dual Wingbeat",
+		"Close Combat"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Assault Vest",
+      "index": 188
+    }
+  },
+  "Ursaluna": {
+    "Victor Winstrate": {
+      "level": 42,
+      "ability": "Unnerve",
+      "moves": [
+        "High Horsepower",
+		"Play Rough",
+		"Bulk Up",
+		"Close Combat"
+      ],
+      "nature": "Jolly",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Sitrus Berry",
+      "index": 189
+    }
+  },
+  "Trevenant": {
+    "Victoria Winstrate": {
+      "level": 42,
+      "ability": "Harvest",
+      "moves": [
+        "Wood Hammer",
+		"Forests Curse",
+		"X-Scissor",
+		"Poison Jab"
+      ],
+      "nature": "Brave",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Liechi Berry",
+      "index": 190
+    }
+  },
+  "Scolipede": {
+    "Victoria Winstrate": {
+      "level": 42,
+	  "teraType": "Rock",
+      "ability": "Speed Boost",
+      "moves": [
+        "Rollout",
+		"Bulldoze",
+		"X-Scissor",
+		"Poison Jab"
+      ],
+      "nature": "Jolly",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Assault Vest",
+      "index": 191
+    }
+  },
+  "Palafin": {
+    "Vivi Winstrate": {
+      "level": 42,
+      "ability": "Zero To Hero",
+      "moves": [
+        "Jet Punch",
+		"Flip Turn"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Assault Vest",
+      "index": 192
+    }
+  },
+  "Armarouge": {
+    "Vivi Winstrate": {
+      "level": 42,
+      "ability": "Weak Armor",
+      "moves": [
+        "Flash Cannon",
+		"Flamethrower",
+		"Psychic",
+		"Aura Sphere"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Sitrus Berry",
+      "index": 194
+    }
+  },
+  "Lucario": {
+    "Vicky Winstrate": {
+      "level": 42,
+      "ability": "Steadfast",
+      "moves": [
+        "Aura Sphere",
+		"Force Palm",
+		"Meteor Mash",
+		"Dragon Pulse"
+      ],
+      "nature": "Hardy",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Lucarionite",
+      "index": 195
+    }
+  },
+  "Grafaiai": {
+    "Picnicker Irene": {
+      "level": 34,
+      "ability": "Prankster",
+      "moves": [
+        "Toxic",
+		"Metronome",
+		"Protect"
+      ],
+      "nature": "Calm",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Focus Band",
+      "index": 196
+    }
+  },
+  "Squawkabilly-Yellow": {
+    "Picnicker Irene": {
+      "level": 34,
+	  "teraType": "Fire",
+      "ability": "Sheer Force",
+      "moves": [
+        "Air Slash",
+		"Sunny Day",
+		"Heat Wave"
+      ],
+      "nature": "Rash",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Charcoal",
+      "index": 198
+    }
+  },
+  "Eevee-Starter": {
+    "Camper Jay": {
+      "level": 36,
+      "ability": "Adaptability",
+      "moves": [
+        "Hyper Voice",
+		"Body Slam",
+		"Shadow Ball",
+		"Alluring Voice"
+      ],
+      "nature": "Hardy",
+	  "ivs": {
+			  "hp": 21, "at": 21, "df": 21, "sa": 21, "sd": 21, "sp": 21
+		  },
+      "item": "Silk Scarf",
+      "index": 199
+    }
+  },
+  "Espeon": {
+    "Camper Jay": {
+      "level": 36,
+      "ability": "Adaptability",
+      "moves": [
+        "Hyper Voice",
+		"Psychic Noise",
+		"Shadow Ball",
+		"Draining Kiss"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 21, "at": 21, "df": 21, "sa": 21, "sd": 21, "sp": 21
+		  },
+      "item": "Wise Glasses",
+      "index": 200
+    }
+  },
+  "Jolteon": {
+    "Camper Jay": {
+      "level": 36,
+      "ability": "Quick Feet",
+      "moves": [
+        "Hyper Voice",
+		"Electro Ball",
+		"Volt Switch",
+		"Trailblaze"
+      ],
+      "nature": "Hasty",
+	  "ivs": {
+			  "hp": 21, "at": 21, "df": 21, "sa": 21, "sd": 21, "sp": 21
+		  },
+      "item": "Toxic Orb",
+      "index": 201
+    }
+  },
+  "Sylveon": {
+    "Camper Jay": {
+      "level": 36,
+      "ability": "Pixilate",
+      "moves": [
+        "Hyper Voice",
+		"Magical Leaf",
+		"Mystical Fire",
+		"Psyshock"
+      ],
+      "nature": "Rash",
+	  "ivs": {
+			  "hp": 21, "at": 21, "df": 21, "sa": 21, "sd": 21, "sp": 21
+		  },
+      "item": "Bright Powder",
+      "index": 202
+    }
+  },
+  "Gogoat": {
+    "Camper Larry": {
+      "level": 34,
+      "ability": "Grass Pelt",
+      "moves": [
+        "Grassy Glide",
+		"Horn Leech",
+		"Wild Charge",
+		"Grassy Terrain"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Grassy Seed",
+      "index": 203
+    }
+  },
+  "Rillaboom": {
+    "Camper Larry": {
+      "level": 35,
+      "ability": "Grassy Surge",
+      "moves": [
+        "Grassy Glide",
+		"Grass Pledge",
+		"High Horsepower",
+		"Drain Punch"
+      ],
+      "nature": "Brave",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Assault Vest",
+      "index": 205
+    }
+  },
+  "Simipour": {
+    "Camper Larry": {
+      "level": 35,
+      "ability": "Grassy Surge",
+      "moves": [
+        "Water Pledge",
+		"Scald",
+		"Grass Knot",
+		"Rain Dance"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Petaya Berry",
+      "index": 206
+    }
+  },
+  "Brambleghast": {
+    "Picnicker Carol": {
+      "level": 35,
+	  "teraType": "Grass",
+      "ability": "Wind Rider",
+      "moves": [
+        "Seed Bomb",
+		"Phantom Force",
+		"Facade",
+		"Thief"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "",
+      "index": 208
+    }
+  },
+  "Pidgeot": {
+    "Picnicker Carol": {
+      "level": 35,
+      "ability": "Keen Eye",
+      "moves": [
+        "Tailwind",
+		"Hurricane",
+		"Rain Dance"
+      ],
+      "nature": "Naive",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Flying Gem",
+      "index": 209
+    }
+  },
+  "Golem": {
+    "Hiker Brice & Hiker Trent": {
+      "level": 34,
+      "ability": "Sturdy",
+      "moves": [
+        "Explosion"
+      ],
+      "nature": "Naughty",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Custap Berry",
+      "index": 210
+    }
+  },
+  "Minior": {
+    "Hiker Brice & Hiker Trent": {
+      "level": 34,
+      "ability": "Shields Down",
+      "moves": [
+        "Meteor Beam",
+		"Power Gem",
+		"Acrobatics",
+		"Protect"
+      ],
+      "nature": "Hardy",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Power Herb",
+      "index": 212
+    }
+  },
+  "Solrock": {
+    "Hiker Brice & Hiker Trent": {
+      "level": 34,
+      "ability": "Levitate",
+      "moves": [
+        "Psychic Terrain",
+		"Zen Headbutt",
+		"Iron Defense",
+		"Gyro Ball"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Terrain Extender",
+      "index": 213
+    }
+  },
+  "Lunatone": {
+    "Hiker Brice & Hiker Trent": {
+      "level": 34,
+	  "teraType": "Psychic",
+      "ability": "Levitate",
+      "moves": [
+        "Trick Room",
+		"Stored Power",
+		"Nasty Plot",
+		"Psychic Terrain"
+      ],
+      "nature": "Quiet",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Psychic Terrain",
+      "index": 214
+    }
+  },
+  "Torkoal": {
+    "Kindler Bryant & Aroma Lady Shayla": {
+      "level": 35,
+      "ability": "Drought",
+      "moves": [
+        "Rapid Spin",
+		"Smokescreen",
+		"Flamethrower",
+		"Solar Beam"
+      ],
+      "nature": "Quiet",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 0
+		  },
+      "item": "Heat Rock",
+      "index": 215
+    }
+  },
+  "Heliolisk": {
+    "Kindler Bryant & Aroma Lady Shayla": {
+      "level": 35,
+	  "teraType": "Normal",
+      "ability": "Solar Power",
+      "moves": [
+        "Electroweb",
+		"Thunderbolt",
+		"Weather Ball",
+		"Hyper Voice"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 0
+		  },
+      "item": "Life Orb",
+      "index": 216
+    }
+  },
+  "Lilligant": {
+    "Kindler Bryant & Aroma Lady Shayla": {
+      "level": 35,
+	  "teraType": "Water",
+      "ability": "Chlorophyll",
+      "moves": [
+        "Solar Blade",
+		"Victory Dance",
+		"Synthesis",
+		"Aerial Ace"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 0
+		  },
+      "item": "Miracle Seed",
+      "index": 217
+    }
+  },
+  "Sawsbuck": {
+    "Kindler Bryant & Aroma Lady Shayla": {
+      "level": 35,
+      "ability": "Chlorophyll",
+      "moves": [
+        "Horn Leech",
+		"Swords Dance",
+		"High Horsepower",
+		"Body Slam"
+      ],
+      "nature": "Naughty",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 0
+		  },
+      "item": "Assault Vest",
+      "index": 218
+    }
+  },
+  "Gengar": {
+    "Cooltrainer Wilton": {
+      "level": 36,
+      "ability": "Cursed Body",
+      "moves": [
+        "Mean Look",
+		"Spite",
+		"Disable",
+		"Destiny Bond"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Air Balloon",
+      "index": 219
+    }
+  },
+  "Gourgeist-Super": {
+    "Cooltrainer Wilton": {
+      "level": 36,
+      "ability": "Pickup",
+      "moves": [
+        "Trick-Or-Treat",
+		"Foul Play",
+		"Shadow Sneak",
+		"Trick"
+      ],
+      "nature": "Impish",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Ring Target",
+      "index": 220
+    }
+  },
+  "Thievul": {
+    "Cooltrainer Wilton": {
+      "level": 36,
+      "ability": "Unburden",
+      "moves": [
+        "Sucker Punch",
+		"Parting Shot",
+		"Snarl",
+		"Shadow Ball"
+      ],
+      "nature": "Mild",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Ghost Gem",
+      "index": 221
+    }
+  },
+  "Runerigus": {
+    "Cooltrainer Wilton": {
+      "level": 36,
+      "ability": "Wandering Spirit",
+      "moves": [
+        "Shadow Claw",
+		"Brutal Swing",
+		"Ally Switch",
+		"Body Press"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Expert Belt",
+      "index": 222
     }
   }
 }
