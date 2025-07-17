@@ -1,4 +1,4 @@
-﻿import * as I from './interface';
+import * as I from './interface';
 import {toID, extend, DeepPartial, assignWithout} from '../util';
 
 export interface SpeciesData {
@@ -7505,7 +7505,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     otherFormes: ['Darmanitan-Galar', 'Darmanitan-Galar-Zen', 'Darmanitan-Zen'],
   },
   Darumaka: {otherFormes: ['Darumaka-Galar']},
-  Eevee: {otherFormes: ['Eevee-Gmax']},
+  Eevee: {otherFormes: ['Eevee-Gmax', 'Eevee-Starter']},
   Equilibra: {bs: {sa: 133}},
   'Farfetch\u2019d': {otherFormes: ['Farfetch\u2019d-Galar']},
   Garbodor: {otherFormes: ['Garbodor-Gmax']},
@@ -8975,7 +8975,7 @@ const PLA_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
 const SS: {[name: string]: SpeciesData} = extend(true, {}, SM, SS_PATCH, PLA_PATCH);
 
 delete SS['Pikachu-Starter'];
-delete SS['Eevee-Starter'];
+//delete SS['Eevee-Starter'];
 
 
 const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {

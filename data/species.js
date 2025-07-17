@@ -8992,7 +8992,7 @@ var PLA_PATCH = {
 };
 var SS = (0, util_1.extend)(true, {}, SM, SS_PATCH, PLA_PATCH);
 delete SS['Pikachu-Starter'];
-delete SS['Eevee-Starter'];
+//delete SS['Eevee-Starter'];
 var SV_PATCH = {
     Bisharp: { nfe: true },
     Cresselia: { bs: { df: 110, sd: 120 } },
