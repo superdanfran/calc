@@ -1824,7 +1824,7 @@ var SETDEX_SV = {
       "index": 129
     }
   },
-  "Basculin": {
+  "Basculin-White-Striped": {
     "Leader Nessa": {
       "level": 20,
       "ability": "Adaptability",
@@ -1838,7 +1838,7 @@ var SETDEX_SV = {
 	  "ivs": {
 			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
 		  },
-      "item": "Kings Rock",
+      "item": "King's Rock",
       "index": 99
     }
   },
