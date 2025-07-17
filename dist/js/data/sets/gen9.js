@@ -1382,6 +1382,22 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 76
+    },
+	"Leader Nessa": {
+      "level": 20,
+      "ability": "Water Compaction",
+      "moves": [
+        "Mega Drain",
+		"Shore Up",
+		"Chilling Water",
+		"Mud Shot"
+      ],
+      "nature": "Relaxed",
+	  "ivs": {
+			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
+		  },
+      "item": "Eviolite",
+      "index": 100
     }
   },
   "Sinistea": {
@@ -1824,24 +1840,6 @@ var SETDEX_SV = {
 		  },
       "item": "Kings Rock",
       "index": 99
-    }
-  },
-  "Corsola-Galar": {
-    "Leader Nessa": {
-      "level": 20,
-      "ability": "Cursed Body",
-      "moves": [
-        "Ancient Power",
-		"Hex",
-		"Chilling Water",
-		"Protect"
-      ],
-      "nature": "Bold",
-	  "ivs": {
-			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
-		  },
-      "item": "Sitrus Berry",
-      "index": 100
     }
   },
   "Masquerain": {
@@ -3062,7 +3060,7 @@ var SETDEX_SV = {
     }
   },
   "Electrode-Hisui": {
-    "Gym Leader Wattson": {
+    "Leader Wattson": {
       "level": 31,
       "ability": "Soundproof",
       "moves": [
@@ -3080,7 +3078,7 @@ var SETDEX_SV = {
     }
   },
   "Stunfisk": {
-    "Gym Leader Wattson": {
+    "Leader Wattson": {
       "level": 31,
       "ability": "Static",
       "moves": [
@@ -3098,7 +3096,7 @@ var SETDEX_SV = {
     }
   },
   "Golem-Alola": {
-    "Gym Leader Wattson": {
+    "Leader Wattson": {
       "level": 31,
       "ability": "Galvanize",
       "moves": [
@@ -3116,7 +3114,7 @@ var SETDEX_SV = {
     }
   },
   "Kilowattrel": {
-    "Gym Leader Wattson": {
+    "Leader Wattson": {
       "level": 31,
       "ability": "Competitive",
       "moves": [
@@ -3134,7 +3132,7 @@ var SETDEX_SV = {
     }
   },
   "Porygon-Z": {
-    "Gym Leader Wattson": {
+    "Leader Wattson": {
       "level": 32,
 	  "teraType": "Electric",
       "ability": "Analytic",
