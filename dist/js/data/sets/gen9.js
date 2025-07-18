@@ -167,6 +167,23 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 6
+    },
+	"Youngster Jaylen": {
+      "level": 36,
+	  "teraType": "Normal",
+      "ability": "Guts",
+      "moves": [
+        "Facade",
+        "Protect",
+        "U-turn",
+		"Brave Bird"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 18, "at": 18, "df": 18, "sa": 18, "sd": 18, "sp": 18
+		  },
+      "item": "Flame Orb",
+      "index": 230
     }
   },
   "Smoliv": {
@@ -521,6 +538,22 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 24
+    },
+	"Youngster Jaylen": {
+      "level": 36,
+      "ability": "Intimidate",
+      "moves": [
+        "Tailwind",
+        "Parting Shot",
+        "Reversal",
+		"Aerial Ace"
+      ],
+      "nature": "Bold",
+	  "ivs": {
+			  "hp": 18, "at": 18, "df": 18, "sa": 18, "sd": 18, "sp": 18
+		  },
+      "item": "Eject Pack",
+      "index": 228
     }
   },
   "Hatenna": {
@@ -1681,6 +1714,22 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 91
+    },
+	"Cooltrainer Brooke": {
+      "level": 36,
+      "ability": "Ice Face",
+      "moves": [
+        "Snowscape",
+		"Aurora Veil",
+		"Chilling Water",
+		"Flip Turn"
+      ],
+      "nature": "Quiet",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 0
+		  },
+      "item": "",
+      "index": 226
     }
   },
   "Brionne": {
@@ -2589,6 +2638,22 @@ var SETDEX_SV = {
 		  },
       "item": "Honey",
       "index": 143
+    },
+	"Parasol Lady Madeline": {
+      "level": 36,
+      "ability": "Shield Dust",
+      "moves": [
+        "Dazzling Gleam",
+		"Pollen Puff",
+		"Quiver Dance",
+		"Psychic"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 21, "at": 21, "df": 21, "sa": 21, "sd": 21, "sp": 21
+		  },
+      "item": "Occa Berry",
+      "index": 236
     }
   },
   "Accelgor": {
@@ -2623,6 +2688,23 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 145
+    },
+	"Pokemaniac Wyatt": {
+      "level": 36,
+	  "teraType": "Flying",
+      "ability": "Static",
+      "moves": [
+        "Thunder Punch",
+		"Fire Punch",
+		"Ice Punch",
+		"Bulk Up"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Muscle Band",
+      "index": 244
     }
   },
   "Sawk": {
@@ -2706,6 +2788,21 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 149
+    },
+	"Twins Tori and Tia": {
+      "level": 36,
+	  "teraType": "Bug",
+      "ability": "Friend Guard",
+      "moves": [
+        "Quiver Dance",
+		"Bug Buzz"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
+		  },
+      "item": "Focus Sash",
+      "index": 241
     }
   },
   "Riolu": {
@@ -3510,6 +3607,22 @@ var SETDEX_SV = {
 		  },
       "item": "Focus Band",
       "index": 196
+    },
+	"Picknicker Sophie & Bird Keeper Coby": {
+      "level": 36,
+      "ability": "Prankster",
+      "moves": [
+        "Toxic",
+		"Helping Hand",
+		"Flatter",
+		"Poison Jab"
+      ],
+      "nature": "Sassy",
+	  "ivs": {
+			  "hp": 21, "at": 21, "df": 21, "sa": 21, "sd": 21, "sp": 21
+		  },
+      "item": "Bright Powder",
+      "index": 248
     }
   },
   "Squawkabilly-Yellow": {
@@ -3793,7 +3906,7 @@ var SETDEX_SV = {
       ],
       "nature": "Modest",
 	  "ivs": {
-			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 0
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
 		  },
       "item": "Life Orb",
       "index": 216
@@ -3812,10 +3925,26 @@ var SETDEX_SV = {
       ],
       "nature": "Adamant",
 	  "ivs": {
-			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 0
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
 		  },
       "item": "Miracle Seed",
       "index": 217
+    },
+	"Parasol Lady Madeline": {
+      "level": 36,
+      "ability": "Own Tempo",
+      "moves": [
+        "Petal Dance",
+		"Teeter Dance",
+		"Quiver Dance",
+		"Magical Leaf"
+      ],
+      "nature": "Rash",
+	  "ivs": {
+			  "hp": 21, "at": 21, "df": 21, "sa": 21, "sd": 21, "sp": 21
+		  },
+      "item": "Mental Herb",
+      "index": 234
     }
   },
   "Sawsbuck": {
@@ -3830,7 +3959,7 @@ var SETDEX_SV = {
       ],
       "nature": "Naughty",
 	  "ivs": {
-			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 0
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
 		  },
       "item": "Assault Vest",
       "index": 218
@@ -3906,6 +4035,464 @@ var SETDEX_SV = {
 		  },
       "item": "Expert Belt",
       "index": 222
+    }
+  },
+  "Ninetales-Alola": {
+    "Cooltrainer Brooke": {
+      "level": 36,
+      "ability": "Snow Warning",
+      "moves": [
+        "Freeze-Dry",
+		"Aurora Veil",
+		"Dazzling Gleam",
+		"Nasty Plot"
+      ],
+      "nature": "Bold",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 0
+		  },
+      "item": "Icy Rock",
+      "index": 223
+    }
+  },
+  "Slowking-Galar": {
+    "Cooltrainer Brooke": {
+      "level": 36,
+      "ability": "Curious Medicine",
+      "moves": [
+        "Chilly Reception",
+		"Trick Room",
+		"Heal Pulse",
+		"Psychic Noise"
+      ],
+      "nature": "Sassy",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 0
+		  },
+      "item": "Leftovers",
+      "index": 224
+    }
+  },
+  "Arctovish": {
+    "Cooltrainer Brooke": {
+      "level": 36,
+      "ability": "Ice Body",
+      "moves": [
+        "Fishious Rend",
+		"Aurora Veil",
+		"Protect",
+		"Crunch"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 0
+		  },
+      "item": "Sitrus Berry",
+      "index": 225
+    }
+  },
+  "Froslass": {
+    "Cooltrainer Brooke": {
+      "level": 36,
+      "ability": "Snow Cloak",
+      "moves": [
+        "Shadow Ball",
+		"Will-O-Wisp",
+		"Ice Beam",
+		"Hex"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 0
+		  },
+      "item": "Spell Tag",
+      "index": 227
+    }
+  },
+  "Mabosstiff": {
+    "Youngster Jaylen": {
+      "level": 36,
+      "ability": "Intimidate",
+      "moves": [
+        "Jaw Lock",
+		"Comeuppance",
+		"Play Rough",
+		"Trailblaze"
+      ],
+      "nature": "Naughty",
+	  "ivs": {
+			  "hp": 18, "at": 18, "df": 18, "sa": 18, "sd": 18, "sp": 18
+		  },
+      "item": "Berserk Gene",
+      "index": 229
+    },
+	"Rival Arven": {
+      "level": 36,
+      "ability": "Intimidate",
+      "moves": [
+        "Crunch",
+		"Psychic Fangs",
+		"Fire Fang",
+		"Play Rough"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Rocky Helmet",
+      "index": 253
+    }
+  },
+  "Weezing": {
+    "Ninja Boy Lung": {
+      "level": 34,
+      "ability": "Neutralizing Gas",
+      "moves": [
+        "Explosion"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 231
+    }
+  },
+  "Weezing-Galar": {
+    "Ninja Boy Lung": {
+      "level": 34,
+      "ability": "Misty Surge",
+      "moves": [
+        "Misty Explosion"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 232
+    }
+  },
+  "Exeggutor": {
+    "Ninja Boy Lung": {
+      "level": 34,
+      "ability": "Chlorophyll",
+      "moves": [
+        "Explosion"
+      ],
+      "nature": "Naughty",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "",
+      "index": 233
+    }
+  },
+  "Oricorio": {
+    "Parasol Lady Madeline": {
+      "level": 36,
+      "ability": "Dancer",
+      "moves": [
+        "Revelation Dance",
+		"Teeter Dance",
+		"Air Slash",
+		"Dual Wingbeat"
+      ],
+      "nature": "Quiet",
+	  "ivs": {
+			  "hp": 21, "at": 21, "df": 21, "sa": 21, "sd": 21, "sp": 21
+		  },
+      "item": "Focus Sash",
+      "index": 235
+    }
+  },
+  "Oricorio-Sensu": {
+    "Parasol Lady Madeline": {
+      "level": 36,
+      "ability": "Dancer",
+      "moves": [
+        "Revelation Dance",
+		"Teeter Dance",
+		"Air Slash",
+		"Dual Wingbeat"
+      ],
+      "nature": "Brave",
+	  "ivs": {
+			  "hp": 21, "at": 21, "df": 21, "sa": 21, "sd": 21, "sp": 21
+		  },
+      "item": "Colbur Berry",
+      "index": 237
+    }
+  },
+  "Scyther": {
+    "Parasol Lady Madeline": {
+      "level": 36,
+      "ability": "Technician",
+      "moves": [
+        "Swords Dance",
+		"Tailwind",
+		"Pounce",
+		"Dual Wingbeat"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 21, "at": 21, "df": 21, "sa": 21, "sd": 21, "sp": 21
+		  },
+      "item": "Persim Berry",
+      "index": 238
+    }
+  },
+  "Clefairy": {
+    "Twins Tori and Tia": {
+      "level": 36,
+      "ability": "Friend Guard",
+      "moves": [
+        "Follow Me",
+		"Helping Hand",
+		"After You",
+		"Metronome"
+      ],
+      "nature": "Bold",
+	  "ivs": {
+			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
+		  },
+      "item": "Eviolite",
+      "index": 239
+    }
+  },
+  "Maushold": {
+    "Twins Tori and Tia": {
+      "level": 36,
+      "ability": "Friend Guard",
+      "moves": [
+        "Hyper Voice",
+		"Bullet Seed",
+		"Water Pulse",
+		"Crunch"
+      ],
+      "nature": "Rash",
+	  "ivs": {
+			  "hp": 24, "at": 24, "df": 24, "sa": 24, "sd": 24, "sp": 24
+		  },
+      "item": "Assault Vest",
+      "index": 240
+    }
+  },
+  "Venusaur": {
+    "Pokemaniac Wyatt": {
+      "level": 36,
+      "ability": "Overgrow",
+      "moves": [
+        "Energy Ball",
+		"Sludge Bomb",
+		"Earth Power",
+		"Knock Off"
+      ],
+      "nature": "Serious",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Life Orb",
+      "index": 242
+    }
+  },
+  "Dugtrio": {
+    "Pokemaniac Wyatt": {
+      "level": 36,
+      "ability": "Arena Trap",
+      "moves": [
+        "Sucker Punch",
+		"Earthquake",
+		"Night Slash",
+		"Rock Slide"
+      ],
+      "nature": "Naughty",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Assault Vest",
+      "index": 243
+    }
+  },
+  "Copperajah": {
+    "Youngster Dillon": {
+      "level": 36,
+      "ability": "Heavy Metal",
+      "moves": [
+        "Iron Head",
+		"Heavy Slam",
+		"Zen Headbutt",
+		"Rock Slide"
+      ],
+      "nature": "Bold",
+	  "ivs": {
+			  "hp": 18, "at": 18, "df": 18, "sa": 18, "sd": 18, "sp": 18
+		  },
+      "item": "Metal Coat",
+      "index": 245
+    }
+  },
+  "Hakamo-o": {
+    "Youngster Dillon": {
+      "level": 36,
+      "ability": "Soundproof",
+      "moves": [
+        "Dragon Claw",
+		"Brick Break",
+		"Scale Shot",
+		"Dragon Dance"
+      ],
+      "nature": "Hardy",
+	  "ivs": {
+			  "hp": 18, "at": 18, "df": 18, "sa": 18, "sd": 18, "sp": 18
+		  },
+      "item": "Razor Claw",
+      "index": 246
+    }
+  },
+  "Gliscor": {
+    "Youngster Dillon": {
+      "level": 36,
+      "ability": "Poison Heal",
+      "moves": [
+        "Thunder Fang",
+		"Ice Fang",
+		"Fire Fang",
+		"X-Scissor"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 18, "at": 18, "df": 18, "sa": 18, "sd": 18, "sp": 18
+		  },
+      "item": "Toxic Orb",
+      "index": 247
+	}
+    },
+  "Morgrem": {
+    "Picknicker Sophie & Bird Keeper Coby": {
+      "level": 36,
+      "ability": "Prankster",
+      "moves": [
+        "Trick",
+		"Thunder Wave",
+		"Light Screen",
+		"Reflect"
+      ],
+      "nature": "Calm",
+	  "ivs": {
+			  "hp": 21, "at": 21, "df": 21, "sa": 21, "sd": 21, "sp": 21
+		  },
+      "item": "Iron Ball",
+      "index": 247
+    }
+  },
+  "Espathra": {
+    "Picknicker Sophie & Bird Keeper Coby": {
+      "level": 36,
+      "ability": "Opportunist",
+      "moves": [
+        "Lumina Crash",
+		"Stored Power",
+		"Psyshock",
+		"Shadow Ball"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Weakness Policy",
+      "index": 250
+    }
+  },
+  "Corviknight": {
+    "Picknicker Sophie & Bird Keeper Coby": {
+      "level": 36,
+      "ability": "Mirror Armor",
+      "moves": [
+        "Bulk Up",
+		"Dual Wingbeat",
+		"Tailwind",
+		"Steel Wing"
+      ],
+      "nature": "Impish",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Rocky Helmet",
+      "index": 251
+    }
+  },
+  "Bombirdier": {
+    "Rival Arven": {
+      "level": 36,
+      "ability": "Rocky Payload",
+      "moves": [
+        "Dual Wingbeat",
+		"Tailwind",
+		"Stealth Rock",
+		"Rock Slide"
+      ],
+      "nature": "Naughty",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Life Orb",
+      "index": 252
+    }
+  },
+  "Orthworm": {
+    "Rival Arven": {
+      "level": 36,
+      "ability": "Earth Eater",
+      "moves": [
+        "Body Press",
+		"Bulldoze",
+		"Iron Head",
+		"Heavy Slam"
+      ],
+      "nature": "Bold",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Assault Vest",
+      "index": 254
+    }
+  },
+  "Cloyster": {
+    "Rival Arven": {
+      "level": 36,
+      "ability": "Skill Link",
+      "moves": [
+        "Rock Blast",
+		"Icicle Spear",
+		"Liquidation",
+		"Shell Smash"
+      ],
+      "nature": "Naive",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Salac Berry",
+      "index": 255
+    }
+  },
+  "Garganacl": {
+    "Rival Arven": {
+      "level": 36,
+	  "teraType": "Fairy",
+      "ability": "Purifying Salt",
+      "moves": [
+        "Body Press",
+		"Iron Defense",
+		"Salt Cure",
+		"Stone Edge"
+      ],
+      "nature": "Relaxed",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Leftovers",
+      "index": 256
     }
   }
 }
