@@ -1184,7 +1184,7 @@ var SETDEX_SV = {
       "moves": [
         "Fell Stinger",
 		"Aerial Ace",
-		"X-Scissor"
+		"Bug Bite"
       ],
       "nature": "Hasty",
 	  "ivs": {
@@ -1330,6 +1330,20 @@ var SETDEX_SV = {
 		  },
       "item": "Eviolite",
       "index": 70
+    },
+	"Fisherman Claude": {
+      "level": 70,
+      "ability": "Swift Swim",
+      "moves": [
+        "Rain Dance",
+		"Flail"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 21, "at": 21, "df": 21, "sa": 21, "sd": 21, "sp": 21
+		  },
+      "item": "Eviolite",
+      "index": 263
     }
   },
   "Wattrel": {
@@ -4493,6 +4507,145 @@ var SETDEX_SV = {
 		  },
       "item": "Leftovers",
       "index": 256
+    }
+  },
+  "Politoed": {
+    "Fisherman Kai & Picnicker Charlotte": {
+      "level": 38,
+      "ability": "Drizzle",
+      "moves": [
+        "Surf",
+		"Icy Wind",
+		"Mud Shot",
+		"Helping Hand"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Bright Powder",
+      "index": 257
+    }
+  },
+  "Slowking": {
+    "Fisherman Kai & Picnicker Charlotte": {
+      "level": 38,
+      "ability": "Oblivious",
+      "moves": [
+        "Surf",
+		"Slack Off",
+		"Thunder Wave",
+		"Icy Wind"
+      ],
+      "nature": "Quiet",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Leftovers",
+      "index": 258
+    }
+  },
+  "Toxapex": {
+    "Fisherman Kai & Picnicker Charlotte": {
+      "level": 38,
+      "ability": "Merciless",
+      "moves": [
+        "Surf",
+		"Infestation",
+		"Toxic",
+		"Recover"
+      ],
+      "nature": "Quiet",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Black Sludge",
+      "index": 259
+    }
+  },
+  "Cacturne": {
+    "Fisherman Kai & Picnicker Charlotte": {
+      "level": 38,
+      "ability": "Water Absorb",
+      "moves": [
+        "Focus Blast",
+		"Giga Drain",
+		"Shadow Ball",
+		"Dark Pulse"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Focus Band",
+      "index": 260
+    }
+  },
+  "Parasect": {
+    "Fisherman Kai & Picnicker Charlotte": {
+      "level": 38,
+      "ability": "Dry Skin",
+      "moves": [
+        "X-Scissor",
+		"Seed Bomb",
+		"Spore",
+		"Rock Slide"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Focus Sash",
+      "index": 261
+    }
+  },
+  "Toxicroak": {
+    "Fisherman Kai & Picnicker Charlotte": {
+      "level": 38,
+      "ability": "Dry Skin",
+      "moves": [
+        "Fake Out",
+		"Close Combat",
+		"Belch",
+		"Ice Punch"
+      ],
+      "nature": "Jolly",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Salac Berry",
+      "index": 262
+    }
+  },
+  "Wugtrio": {
+    "Fisherman Claude": {
+      "level": 34,
+      "ability": "Gooey",
+      "moves": [
+        "Triple Dive"
+      ],
+      "nature": "Jolly",
+	  "ivs": {
+			  "hp": 10, "at": 10, "df": 10, "sa": 10, "sd": 10, "sp": 10
+		  },
+      "item": "Choice Band",
+      "index": 264
+    }
+  },
+  "Seadra": {
+    "Fisherman Claude": {
+      "level": 36,
+	  "teraType": "Flying",
+      "ability": "Swift Swim",
+      "moves": [
+        "Hurricane"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 10, "at": 0, "df": 10, "sa": 10, "sd": 10, "sp": 10
+		  },
+      "item": "Choice Specs",
+      "index": 265
     }
   }
 }
