@@ -149,6 +149,21 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 5
+    },
+	"Bug Maniac Buggford": {
+      "level": 100,
+      "ability": "Shield Dust",
+      "moves": [
+        "Poison Sting",
+		"String Shot",
+		"Bug Bite"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Eviolite",
+      "index": 276
     }
   },
   "Squawkabilly": {
@@ -1192,6 +1207,22 @@ var SETDEX_SV = {
 		  },
       "item": "Oran Berry",
       "index": 59
+    },
+	"Magma Admin Tabitha (Mt Chimney)": {
+      "level": 38,
+      "ability": "Sniper",
+      "moves": [
+        "Knock Off",
+		"Poison Jab",
+		"U-turn",
+		"X-Scissor"
+      ],
+      "nature": "Jolly",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Beedrillite",
+      "index": 309
     }
   },
   "Glimmet": {
@@ -1332,7 +1363,7 @@ var SETDEX_SV = {
       "index": 70
     },
 	"Fisherman Claude": {
-      "level": 70,
+      "level": 69,
       "ability": "Swift Swim",
       "moves": [
         "Rain Dance",
@@ -2447,6 +2478,22 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 128
+    },
+	"Magma Grunt Gertrude": {
+      "level": 37,
+      "ability": "Psychic Surge",
+      "moves": [
+        "Follow Me",
+		"Helping Hand",
+		"Shadow Ball",
+		"Hyper Voice"
+      ],
+      "nature": "Bold",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Eject Button",
+      "index": 303
     }
   },
   "Araquanid": {
@@ -2501,6 +2548,22 @@ var SETDEX_SV = {
 		  },
       "item": "",
       "index": 133
+    },
+	"Camper Happy": {
+      "level": 36,
+      "ability": "Regenerator",
+      "moves": [
+		"Shed Tail",
+		"Shift Gear",
+		"Hyper Voice",
+		"Breaking Swipe"
+      ],
+      "nature": "Hasty",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Heavy-Duty Boots",
+      "index": 277
     }
   },
   "Scovillain": {
@@ -3283,6 +3346,23 @@ var SETDEX_SV = {
 		  },
       "item": "Quick Claw",
       "index": 177
+    },
+	"Hiker Nancy": {
+      "level": 35,
+	  "teraType": "Flying",
+      "ability": "Galvanize",
+      "moves": [
+        "Explosion",
+		"Thunder Punch",
+		"Rock Polish",
+		"Tera Blast"
+      ],
+      "nature": "Jolly",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Magnet",
+      "index": 270
     }
   },
   "Kilowattrel": {
@@ -3442,6 +3522,22 @@ var SETDEX_SV = {
 		  },
       "item": "Misty Seed",
       "index": 193
+    },
+	"Magma Grunt Gertrude": {
+      "level": 37,
+      "ability": "Prankster",
+      "moves": [
+        "Helping Hand",
+		"Weather Ball",
+		"Sunny Day",
+		"Tailwind"
+      ],
+      "nature": "Sassy",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Heat Rock",
+      "index": 304
     }
   },
   "Marowak-Alola": {
@@ -3745,6 +3841,22 @@ var SETDEX_SV = {
 		  },
       "item": "Grassy Seed",
       "index": 203
+    },
+	"Hiker Alma & Hiker Lenny": {
+      "level": 35,
+      "ability": "Grass Pelt",
+      "moves": [
+		"Horn Leech",
+		"Zen Headbutt",
+		"Body Slam",
+		"Rock Slide"
+      ],
+      "nature": "Naughty",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Assault Vest",
+      "index": 285
     }
   },
   "Rillaboom": {
@@ -3763,6 +3875,22 @@ var SETDEX_SV = {
 		  },
       "item": "Assault Vest",
       "index": 205
+    },
+	"Hiker Alma & Hiker Lenny": {
+      "level": 36,
+      "ability": "Grassy Surge",
+      "moves": [
+		"Grassy Glide",
+		"Fake Out",
+		"Acrobatics",
+		"Drum Beating"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Normal Gem",
+      "index": 288
     }
   },
   "Simipour": {
@@ -3850,6 +3978,22 @@ var SETDEX_SV = {
 		  },
       "item": "Power Herb",
       "index": 212
+    },
+	"Sr Tyra & Jr Ivy": {
+      "level": 34,
+      "ability": "Shields Down",
+      "moves": [
+        "Acrobatics",
+		"Shell Smash",
+		"Rock Slide",
+		"Iron Head"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "White Herb",
+      "index": 273
     }
   },
   "Solrock": {
@@ -3905,6 +4049,20 @@ var SETDEX_SV = {
 		  },
       "item": "Heat Rock",
       "index": 215
+    },
+	"Magma Leader Maxie (Mt Chimney)": {
+      "level": 38,
+      "ability": "Drought",
+      "moves": [
+        "Overheat",
+		"Stealth Rock"
+      ],
+      "nature": "Quiet",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Eject Pack",
+      "index": 312
     }
   },
   "Heliolisk": {
@@ -3924,6 +4082,22 @@ var SETDEX_SV = {
 		  },
       "item": "Life Orb",
       "index": 216
+    },
+	"Kindler Bernie": {
+      "level": 34,
+      "ability": "Solar Power",
+      "moves": [
+		"Grass Knot",
+		"Thunderbolt",
+		"Dragon Pulse",
+		"Hyper Voice"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Wise Glasses",
+      "index": 284
     }
   },
   "Lilligant": {
@@ -3977,6 +4151,22 @@ var SETDEX_SV = {
 		  },
       "item": "Assault Vest",
       "index": 218
+    },
+	"Hiker Alma & Hiker Lenny": {
+      "level": 36,
+      "ability": "Serene Grace",
+      "moves": [
+		"Horn Leech",
+		"Play Rough",
+		"Zen Headbutt",
+		"Wild Charge"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Quick Claw",
+      "index": 287
     }
   },
   "Gengar": {
@@ -4290,6 +4480,22 @@ var SETDEX_SV = {
 		  },
       "item": "Assault Vest",
       "index": 240
+    },
+	"Sr Tyra & Jr Ivy": {
+      "level": 34,
+      "ability": "Friend Guard",
+      "moves": [
+        "Follow Me",
+		"Helping Hand",
+		"Thunder Wave",
+		"Play Rough"
+      ],
+      "nature": "Jolly",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Bright Powder",
+      "index": 272
     }
   },
   "Venusaur": {
@@ -4308,6 +4514,22 @@ var SETDEX_SV = {
 		  },
       "item": "Life Orb",
       "index": 242
+    },
+	"Magma Leader Maxie (Mt Chimney)": {
+      "level": 38,
+      "ability": "Overgrow",
+      "moves": [
+        "Sleep Powder",
+		"Double Team",
+		"Weather Ball",
+		"Energy Ball"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Black Sludge",
+      "index": 313
     }
   },
   "Dugtrio": {
@@ -4452,6 +4674,22 @@ var SETDEX_SV = {
 		  },
       "item": "Life Orb",
       "index": 252
+    },
+	"Trainer Arven (Meteor Falls)": {
+      "level": 36,
+      "ability": "Rocky Payload",
+      "moves": [
+        "Dual Wingbeat",
+		"Tailwind",
+		"Stealth Rock",
+		"Rock Slide"
+      ],
+      "nature": "Naughty",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Life Orb",
+      "index": 300
     }
   },
   "Orthworm": {
@@ -4470,7 +4708,23 @@ var SETDEX_SV = {
 		  },
       "item": "Assault Vest",
       "index": 254
-    }
+    },
+	"Hiker Hank": {
+		  "level": 34,
+		  "ability": "Earth Eater",
+		  "moves": [
+			"Body Press",
+			"Coil",
+			"Heavy Slam",
+			"Body Slam"
+		  ],
+		  "nature": "Naughty",
+		  "ivs": {
+				  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+			  },
+		  "item": "Chople Berry",
+		  "index": 292
+    } 
   },
   "Cloyster": {
     "Rival Arven": {
@@ -4488,6 +4742,22 @@ var SETDEX_SV = {
 		  },
       "item": "Salac Berry",
       "index": 255
+    },
+	"Trainer Arven (Meteor Falls)": {
+      "level": 36,
+      "ability": "Skill Link",
+      "moves": [
+        "Rock Blast",
+		"Icicle Spear",
+		"Liquidation",
+		"Shell Smash"
+      ],
+      "nature": "Naive",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Salac Berry",
+      "index": 301
     }
   },
   "Garganacl": {
@@ -4507,6 +4777,23 @@ var SETDEX_SV = {
 		  },
       "item": "Leftovers",
       "index": 256
+    },
+	"Trainer Arven (Meteor Falls)": {
+      "level": 36,
+	  "teraType": "Fairy",
+      "ability": "Purifying Salt",
+      "moves": [
+        "Body Press",
+		"Iron Defense",
+		"Salt Cure",
+		"Stone Edge"
+      ],
+      "nature": "Relaxed",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Leftovers",
+      "index": 302
     }
   },
   "Politoed": {
@@ -4647,5 +4934,613 @@ var SETDEX_SV = {
       "item": "Choice Specs",
       "index": 265
     }
+  },
+  "Torterra": {
+    "Hiker Nancy": {
+      "level": 36,
+      "ability": "Overgrow",
+      "moves": [
+        "Stealth Rock",
+		"Earthquake",
+		"Leaf Storm",
+		"Stone Edge"
+      ],
+      "nature": "Relaxed",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Yache Berry",
+      "index": 266
+    }
+  },
+  "Skarmory": {
+    "Hiker Nancy": {
+      "level": 36,
+      "ability": "Weak Armor",
+      "moves": [
+        "Body Press",
+		"Drill Run",
+		"Whirlwind",
+		"Iron Head"
+      ],
+      "nature": "Naive",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Assault Vest",
+      "index": 267
+    }
+  },
+  "Kleavor": {
+    "Hiker Nancy": {
+      "level": 36,
+      "ability": "Sheer Force",
+      "moves": [
+        "Counter",
+		"Lunge",
+		"Stone Axe",
+		"Vacuum Wave"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Focus Band",
+      "index": 268
+    }
+  },
+  "Bastiodon": {
+    "Hiker Nancy": {
+      "level": 36,
+      "ability": "Sturdy",
+      "moves": [
+        "Body Press",
+		"Foul Play",
+		"Curse",
+		"Heavy Slam"
+      ],
+      "nature": "Lax",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Air Balloon",
+      "index": 269
+    }
+  },
+  "Serperior": {
+    "Sr Tyra & Jr Ivy": {
+      "level": 34,
+      "ability": "Overgrow",
+      "moves": [
+        "Glare",
+		"Coil",
+		"Leaf Blade",
+		"Knock Off"
+      ],
+      "nature": "Jolly",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Covert Cloak",
+      "index": 271
+    }
+  },
+  "Klefki": {
+    "Sr Tyra & Jr Ivy": {
+      "level": 34,
+      "ability": "Prankster",
+      "moves": [
+        "Dazzling Gleam",
+		"Switcheroo",
+		"Calm Mind",
+		"Flash Cannon"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 12, "at": 12, "df": 12, "sa": 12, "sd": 12, "sp": 12
+		  },
+      "item": "Iron Ball",
+      "index": 274
+    }
+  },
+  "Caterpie": {
+    "Bug Maniac Buggford": {
+      "level": 100,
+      "ability": "Shield Dust",
+      "moves": [
+        "Tackle",
+		"String Shot",
+		"Bug Bite"
+      ],
+      "nature": "Bold",
+	  "ivs": {
+			  "hp": 0, "at": 0, "df": 0, "sa": 0, "sd": 0, "sp": 0
+		  },
+      "item": "Assault Vest",
+      "index": 275
+    }
+  },
+  "Golisopod": {
+	"Camper Happy": {
+      "level": 36,
+      "ability": "Emergency Exit",
+      "moves": [
+		"U-turn",
+		"First Impression"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Rocky Helmet",
+      "index": 278
+    }
+  },
+  "Ambipom": {
+	"Camper Happy": {
+      "level": 36,
+	  "teraType": "Ghost",
+      "ability": "Skill Link",
+      "moves": [
+		"Fake Out",
+		"Nasty Plot",
+		"Baton Pass",
+		"Fury Swipes"
+      ],
+      "nature": "Jolly",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Kings Rock",
+      "index": 279
+    }
+  },
+  "Lurantis": {
+	"Camper Happy": {
+      "level": 36,
+      "ability": "Contrary",
+      "moves": [
+		"Leaf Storm",
+		"Leaf Blade",
+		"X-Scissor",
+		"Substitute"
+      ],
+      "nature": "Naive",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Mental Herb",
+      "index": 280
+    }
+  },
+  "Ninetales": {
+	"Kindler Bernie": {
+      "level": 34,
+      "ability": "Drought",
+      "moves": [
+		"Energy Ball",
+		"Will-O-Wisp",
+		"Scorching Sands",
+		"Weather Ball"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Wise Glasses",
+      "index": 281
+    }
+  },
+  "Rotom-Heat": {
+	"Kindler Bernie": {
+      "level": 34,
+      "ability": "Levitate",
+      "moves": [
+		"Eruption"
+      ],
+      "nature": "Sassy",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Choice Specs",
+      "index": 282
+    }
+  },
+  "Leavanny": {
+	"Kindler Bernie": {
+      "level": 34,
+	  "teraType": "Fire",
+      "ability": "Chlorophyll",
+      "moves": [
+		"Tera Blast",
+		"Seed Bomb",
+		"Triple Axel",
+		"X-Scissor"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Muscle Band",
+      "index": 283
+    }
+  },
+  "Ampharos": {
+	"Hiker Alma & Hiker Lenny": {
+      "level": 36,
+      "ability": "Mold Breaker",
+      "moves": [
+		"Dragon Pulse",
+		"Thunderbolt",
+		"Dazzling Gleam",
+		"Power Gem"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+      "item": "Wise Glasses",
+      "index": 286
+    }
+  },
+  "Sinistcha": {
+	 "Hiker Alma & Hiker Lenny": {
+		  "level": 36,
+		  "teraType": "Grass",
+		  "ability": "Hospitality",
+		  "moves": [
+			"Life Dew",
+			"Matcha Gotcha",
+			"Scald",
+			"Shadow Ball"
+		  ],
+		  "nature": "Modest",
+		  "ivs": {
+				  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+			  },
+		  "item": "Bright Powder",
+		  "index": 289
+    } 
+  },
+  "Hippowdon": {
+	 "Hiker Hank": {
+		  "level": 34,
+		  "ability": "Sand Stream",
+		  "moves": [
+			"Crunch",
+			"Slack Off",
+			"High Horsepower",
+			"Fire Fang"
+		  ],
+		  "nature": "Impish",
+		  "ivs": {
+				  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+			  },
+		  "item": "Leftovers",
+		  "index": 290
+    } 
+  },
+  "Gabite": {
+	 "Hiker Hank": {
+		  "level": 34,
+		  "ability": "Rough Skin",
+		  "moves": [
+			"Dragon Claw",
+			"Rock Tomb",
+			"Bulldoze",
+			"Swords Dance"
+		  ],
+		  "nature": "Adamant",
+		  "ivs": {
+				  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+			  },
+		  "item": "Eviolite",
+		  "index": 291
+    } 
+  },
+  "Probopass": {
+	 "Hiker Hank": {
+	  "level": 36,
+	  "teraType": "Rock",
+	  "ability": "Sand Force",
+	  "moves": [
+		"Flash Cannon",
+		"Discharge",
+		"Power Gem",
+		"Tera Blast"
+	  ],
+	  "nature": "Modest",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+	  "item": "Air Balloon",
+	  "index": 293
+    } 
+  },
+  "Bisharp": {
+	 "Magma Admin Courtney (Meteor Falls)": {
+	  "level": 36,
+	  "ability": "Defiant",
+	  "moves": [
+		"Iron Head",
+		"Throat Chop",
+		"Aerial Ace",
+		"Brick Break"
+	  ],
+	  "nature": "Brave",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+	  "item": "Eviolite",
+	  "index": 294
+    } 
+  },
+  "Cinderace": {
+	 "Magma Admin Courtney (Meteor Falls)": {
+	  "level": 36,
+	  "ability": "Libero",
+	  "moves": [
+		"Pyro Ball",
+		"High Jump Kick",
+		"U-turn",
+		"Bounce"
+	  ],
+	  "nature": "Adamant",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+	  "item": "Assault Vest",
+	  "index": 295
+    } 
+  },
+  "Skuntank": {
+	 "Magma Admin Courtney (Meteor Falls)": {
+	  "level": 36,
+	  "teraType": "Normal",
+	  "ability": "Stench",
+	  "moves": [
+		"Fury Swipes",
+		"Gunk Shot",
+		"Crunch"
+	  ],
+	  "nature": "Jolly",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+	  "item": "Choice Scarf",
+	  "index": 296
+    } 
+  },
+  "Amoonguss": {
+	 "Magma Grunt Percy (Meteor Falls)": {
+	  "level": 36,
+	  "ability": "Effect Spore",
+	  "moves": [
+		"Rage Powder",
+		"Spore",
+		"Giga Drain",
+		"Sludge Bomb"
+	  ],
+	  "nature": "Bold",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+	  "item": "Occa Berry",
+	  "index": 297
+    } 
+  },
+  "Hitmontop": {
+	 "Magma Grunt Percy (Meteor Falls)": {
+	  "level": 36,
+	  "ability": "Intimidate",
+	  "moves": [
+		"Fake Out",
+		"Mach Punch",
+		"Coaching",
+		"Endeavor"
+	  ],
+	  "nature": "Jolly",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+	  "item": "Focus Sash",
+	  "index": 298
+    } 
+  },
+  "Magmar": {
+	 "Magma Grunt Percy (Meteor Falls)": {
+	  "level": 36,
+	  "ability": "Flame Body",
+	  "moves": [
+		"Follow Me",
+		"Will-O-Wisp",
+		"Helping Hand",
+		"Heat Wave"
+	  ],
+	  "nature": "Bold",
+	  "ivs": {
+			  "hp": 15, "at": 15, "df": 15, "sa": 15, "sd": 15, "sp": 15
+		  },
+	  "item": "Eviolite",
+	  "index": 299
+    } 
+  },
+  "Delphox": {
+	 "Magma Grunt Clifton": {
+	  "level": 37,
+	  "ability": "Blaze",
+	  "moves": [
+		"Expanding Force",
+		"Heat Wave"
+	  ],
+	  "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Focus Sash",
+	  "index": 305
+    } 
+  },
+  "Typhlosion": {
+	 "Magma Grunt Clifton": {
+	  "level": 37,
+	  "ability": "Blaze",
+	  "moves": [
+		"Eruption",
+	  ],
+	  "nature": "Timid",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Choice Specs",
+	  "index": 306
+    } 
+  },
+  "Excadrill": {
+	 "Magma Admin Tabitha (Mt Chimney)": {
+	  "level": 37,
+	  "ability": "Mold Breaker",
+	  "moves": [
+		"Stealth Rock",
+		"Iron Head",
+		"High Horsepower",
+		"Hone Claws"
+	  ],
+	  "nature": "Jolly",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Air Balloon",
+	  "index": 307
+    } 
+  },
+  "Crobat": {
+	 "Magma Admin Tabitha (Mt Chimney)": {
+	  "level": 37,
+	  "ability": "Inner Focus",
+	  "moves": [
+		"U-turn",
+		"Cross Poison",
+		"Dual Wingbeat",
+		"Roost"
+	  ],
+	  "nature": "Jolly",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Focus Sash",
+	  "index": 308
+    } 
+  },
+  "Zoroark-Hisui": {
+	 "Magma Admin Tabitha (Mt Chimney)": {
+	  "level": 38,
+	  "teraType": "Fire",
+	  "ability": "Illusion",
+	  "moves": [
+		"Bitter Malice",
+		"Hyper Voice",
+		"Flamethrower",
+		"U-turn"
+	  ],
+	  "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Assault Vest",
+	  "index": 310
+    } 
+  },
+  "Infernape": {
+	 "Magma Admin Tabitha (Mt Chimney)": {
+	  "level": 38,
+	  "teraType": "Fire",
+	  "ability": "Blaze",
+	  "moves": [
+		"Flamethrower",
+		"U-turn",
+		"Hidden Power",
+		"Aura Sphere"
+	  ],
+	  "nature": "Timid",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Assault Vest",
+	  "index": 311
+    } 
+  },
+  "Chi-Yu": {
+	 "Magma Leader Maxie (Mt Chimney)": {
+	  "level": 38,
+	  "ability": "Beads of Ruin",
+	  "moves": [
+		"Dark Pulse",
+		"Burning Jealousy",
+		"Hex",
+		"Psychic"
+	  ],
+	  "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Absorb Bulb",
+	  "index": 314
+    } 
+  },
+  "Mismagius": {
+	 "Magma Leader Maxie (Mt Chimney)": {
+	  "level": 38,
+	  "teraType": "Fairy",
+	  "ability": "Levitate",
+	  "moves": [
+		"Calm Mind",
+		"Shadow Ball",
+		"Psyshock",
+		"Dazzling Gleam"
+	  ],
+	  "nature": "Timid",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Expert Belt",
+	  "index": 315
+    } 
+  },
+  "Camerupt": {
+	 "Magma Leader Maxie (Mt Chimney)": {
+	  "level": 38,
+	  "ability": "Sheer Force",
+	  "moves": [
+		"Eruption",
+		"Heat Wave",
+		"Earth Power",
+		"Flash Cannon"
+	  ],
+	  "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Cameruptite",
+	  "index": 316
+    } 
+  },
+  "Honchkrow": {
+	 "Magma Leader Maxie (Mt Chimney)": {
+	  "level": 38,
+	  "ability": "Super Luck",
+	  "moves": [
+		"Night Slash",
+		"Sucker Punch",
+		"Dual Wingbeat",
+		"U-turn"
+	  ],
+	  "nature": "Jolly",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Scope Lens",
+	  "index": 317
+    } 
   }
 }
