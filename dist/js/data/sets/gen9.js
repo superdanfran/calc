@@ -2564,6 +2564,22 @@ var SETDEX_SV = {
 		  },
       "item": "Heavy-Duty Boots",
       "index": 277
+    },
+	"Leader Flannery": {
+      "level": 45,
+      "ability": "Regenerator",
+      "moves": [
+		"Shed Tail",
+		"Overheat",
+		"Hyper Voice",
+		"Draco Meteor"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Eject Pack",
+      "index": 364
     }
   },
   "Scovillain": {
@@ -2582,7 +2598,23 @@ var SETDEX_SV = {
 		  },
       "item": "Red Card",
       "index": 134
-    }
+    },
+	"Kindler Cole": {
+	  "level": 42,
+	  "ability": "Chlorophyll",
+	  "moves": [
+		"Overheat",
+		"Energy Ball",
+		"Stomping Tantrum",
+		"Zen Headbutt"
+	  ],
+	  "nature": "Quiet",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Eject Pack",
+	  "index": 348
+    } 
   },
   "Combusken": {
     "Triathlete Dylan": {
@@ -3273,6 +3305,22 @@ var SETDEX_SV = {
 		  },
       "item": "Charti Berry",
       "index": 172
+    },
+	"Kindler Axle": {
+      "level": 42,
+      "ability": "Compound Eyes",
+      "moves": [
+        "Sticky Web",
+		"Discharge",
+		"Bug Buzz",
+		"Giga Drain"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Occa Berry",
+      "index": 351
     }
   },
   "Mightyena": {
@@ -3488,6 +3536,22 @@ var SETDEX_SV = {
 		  },
       "item": "Iapapa Berry",
       "index": 183
+    },
+	"Picnicker Autumn": {
+      "level": 40,
+      "ability": "Gluttony",
+      "moves": [
+        "Giga Drain",
+		"Trailblaze",
+		"Dragon Rush",
+		"Recycle"
+      ],
+      "nature": "Hasty",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Salac Berry",
+      "index": 330
     }
   },
   "Whimsicott": {
@@ -3538,6 +3602,22 @@ var SETDEX_SV = {
 		  },
       "item": "Heat Rock",
       "index": 304
+    },
+	"Triathlete Julio": {
+      "level": 40,
+      "ability": "Prankster",
+      "moves": [
+        "Cotton Guard",
+		"Tailwind",
+		"Moonblast",
+		"Giga Drain"
+      ],
+      "nature": "Hasty",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Clear Amulet",
+      "index": 326
     }
   },
   "Marowak-Alola": {
@@ -3682,6 +3762,23 @@ var SETDEX_SV = {
 		  },
       "item": "Sitrus Berry",
       "index": 194
+    },
+	"Cooltrainer Dani": {
+      "level": 42,
+	  "teraType": "Ice",
+      "ability": "Flash Fire",
+      "moves": [
+        "Weather Ball",
+		"Aura Sphere",
+		"Psychic",
+		"Dark Pulse"
+      ],
+      "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Chople Berry",
+      "index": 362
     }
   },
   "Lucario": {
@@ -3733,6 +3830,22 @@ var SETDEX_SV = {
 		  },
       "item": "Bright Powder",
       "index": 248
+    },
+	"Camper Ethan": {
+      "level": 36,
+      "ability": "Prankster",
+      "moves": [
+        "Metronome",
+		"Swagger",
+		"Copycat",
+		"Nasty Plot"
+      ],
+      "nature": "Sassy",
+	  "ivs": {
+			  "hp": 23, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Ability Shield",
+      "index": 331
     }
   },
   "Squawkabilly-Yellow": {
@@ -3994,7 +4107,23 @@ var SETDEX_SV = {
 		  },
       "item": "White Herb",
       "index": 273
-    }
+    },
+	"Hiker Eric": {
+	  "level": 40,
+	  "ability": "Shields Down",
+	  "moves": [
+		"Dazzling Gleam",
+		"Acrobatics",
+		"Meteor Beam",
+		"Zen Headbutt"
+	  ],
+	  "nature": "Naive",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Power Herb",
+	  "index": 320
+    } 
   },
   "Solrock": {
     "Hiker Brice & Hiker Trent": {
@@ -4257,6 +4386,22 @@ var SETDEX_SV = {
 		  },
       "item": "Icy Rock",
       "index": 223
+    },
+	"Cooltrainer Dani": {
+      "level": 42,
+      "ability": "Snow Warning",
+      "moves": [
+        "Ice Beam",
+		"Moonblast",
+		"Aurora Veil",
+		"Freeze-Dry"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Focus Band",
+      "index": 359
     }
   },
   "Slowking-Galar": {
@@ -4311,6 +4456,22 @@ var SETDEX_SV = {
 		  },
       "item": "Spell Tag",
       "index": 227
+    },
+	"Cooltrainer Dani": {
+      "level": 42,
+      "ability": "Snow Cloak",
+      "moves": [
+        "Double Team",
+		"Blizzard",
+		"Thunder Wave",
+		"Hex"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Bright Powder",
+      "index": 360
     }
   },
   "Mabosstiff": {
@@ -4444,6 +4605,23 @@ var SETDEX_SV = {
 		  },
       "item": "Persim Berry",
       "index": 238
+    },
+	"Picnicker Diana": {
+      "level": 40,
+	  "teraType": "Poison",
+      "ability": "Technician",
+      "moves": [
+        "Swords Dance",
+		"Trailblaze",
+		"Pounce",
+		"Dual Wingbeat"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 21, "at": 21, "df": 21, "sa": 21, "sd": 21, "sp": 21
+		  },
+      "item": "Expert Belt",
+      "index": 323
     }
   },
   "Clefairy": {
@@ -4530,7 +4708,23 @@ var SETDEX_SV = {
 		  },
       "item": "Black Sludge",
       "index": 313
-    }
+    },
+	"Kindler Axle": {
+	  "level": 42,
+	  "ability": "Chlorophyll",
+	  "moves": [
+		"Sleep Powder",
+		"Petal Blizzard",
+		"Poison Jab",
+		"Growth"
+	  ],
+	  "nature": "Adamant",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Black Sludge",
+	  "index": 354
+    } 
   },
   "Dugtrio": {
     "Pokemaniac Wyatt": {
@@ -4656,6 +4850,22 @@ var SETDEX_SV = {
 		  },
       "item": "Rocky Helmet",
       "index": 251
+    },
+	"Kindler Jace": {
+      "level": 42,
+      "ability": "Pressure",
+      "moves": [
+        "Tailwind",
+		"Drill Peck",
+		"Body Press",
+		"Iron Head"
+      ],
+      "nature": "Impish",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Leftovers",
+      "index": 338
     }
   },
   "Bombirdier": {
@@ -4987,6 +5197,22 @@ var SETDEX_SV = {
 		  },
       "item": "Focus Band",
       "index": 268
+    },
+	"Cooltrainer Gerald": {
+      "level": 36,
+      "ability": "Swarm",
+      "moves": [
+        "Tailwind",
+		"Stone Axe",
+		"Lunge",
+		"Stealth Rock"
+      ],
+      "nature": "Brave",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Rocky Helmet",
+      "index": 342
     }
   },
   "Bastiodon": {
@@ -5291,7 +5517,23 @@ var SETDEX_SV = {
 		  },
 	  "item": "Assault Vest",
 	  "index": 295
-    } 
+    },
+	"Cooltrainer Dani": {
+      "level": 42,
+      "ability": "Libero",
+      "moves": [
+        "Ice Punch",
+		"Fire Punch",
+		"Mach Punch",
+		"Swords Dance"
+      ],
+      "nature": "Adamant",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Punching Glove",
+      "index": 361
+    }
   },
   "Skuntank": {
 	 "Magma Admin Courtney (Meteor Falls)": {
@@ -5379,7 +5621,23 @@ var SETDEX_SV = {
 		  },
 	  "item": "Focus Sash",
 	  "index": 305
-    } 
+    },
+	"Leader Flannery": {
+      "level": 45,
+      "ability": "Blaze",
+      "moves": [
+		"Hypnosis",
+		"Heat Wave",
+		"Expanding Force",
+		"Dazzling Gleam"
+      ],
+      "nature": "Timid",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+      "item": "Wise Glasses",
+      "index": 365
+    }
   },
   "Typhlosion": {
 	 "Magma Grunt Clifton": {
@@ -5541,6 +5799,672 @@ var SETDEX_SV = {
 		  },
 	  "item": "Scope Lens",
 	  "index": 317
+    } 
+  },
+  "Golurk": {
+	 "Hiker Eric": {
+	  "level": 40,
+	  "teraType": "Fighting",
+	  "ability": "No Guard",
+	  "moves": [
+		"Dynamic Punch",
+		"Stone Edge",
+		"Take Down",
+		"Poltergeist"
+	  ],
+	  "nature": "Brave",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Assault Vest",
+	  "index": 318
+    } 
+  },
+  "Mienshao": {
+	 "Hiker Eric": {
+	  "level": 40,
+	  "ability": "Reckless",
+	  "moves": [
+		"Fake Out",
+		"High Jump Kick",
+		"Drain Punch",
+		"Double-Edge"
+	  ],
+	  "nature": "Adamant",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Blunder Policy",
+	  "index": 319
+    } 
+  },
+  "Delibird": {
+	 "Picnicker Diana": {
+	  "level": 40,
+	  "ability": "Hustle",
+	  "moves": [
+		"Brave Bird",
+		"Fake Out",
+		"Aerial Ace",
+		"Ice Shard"
+	  ],
+	  "nature": "Brave",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Life Orb",
+	  "index": 321
+    } 
+  },
+  "Decidueye": {
+	 "Picnicker Diana": {
+	  "level": 40,
+	  "ability": "Long Reach",
+	  "moves": [
+		"Dual Wingbeat",
+		"Shadow Claw",
+		"Leaf Blade",
+		"Sucker Punch"
+	  ],
+	  "nature": "Adamant",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Muscle Band",
+	  "index": 322
+    } 
+  },
+  "Noivern": {
+	 "Triathlete Julio": {
+	  "level": 40,
+	  "ability": "Infiltrator",
+	  "moves": [
+		"Dragon Pulse",
+		"Hyper Voice",
+		"Psychic Noise",
+		"Tailwind"
+	  ],
+	  "nature": "Timid",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Adrenaline Orb",
+	  "index": 324
+    } 
+  },
+  "Tauros": {
+	 "Triathlete Julio": {
+	  "level": 40,
+	  "ability": "Sheer Force",
+	  "moves": [
+		"Raging Bull",
+		"Close Combat",
+		"Stomping Tantrum",
+		"Zen Headbutt"
+	  ],
+	  "nature": "Jolly",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Assault Vest",
+	  "index": 325
+    } 
+  },
+  "Dodrio": {
+	 "Triathlete Julio": {
+	  "level": 40,
+	  "ability": "Tangled Feet",
+	  "moves": [
+		"Drill Peck",
+		"Brave Bird",
+		"Trailblaze",
+		"Double-Edge"
+	  ],
+	  "nature": "Jolly",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Berserk Gene",
+	  "index": 327
+    } 
+  },
+  "Dipplin": {
+	 "Picnicker Autumn": {
+	  "level": 40,
+	  "ability": "Supersweet Syrup",
+	  "moves": [
+		"Dragon Pulse",
+		"Recover",
+		"Pollen Puff",
+		"Syrup Bomb"
+	  ],
+	  "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Dragon Fang",
+	  "index": 328
+    } 
+  },
+  "Appletun": {
+	 "Picnicker Autumn": {
+	  "level": 40,
+	  "teraType": "Steel",
+	  "ability": "Thick Fat",
+	  "moves": [
+		"Dragon Pulse",
+		"Recover",
+		"Pollen Puff",
+		"Syrup Bomb"
+	  ],
+	  "nature": "Quiet",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Air Balloon",
+	  "index": 329
+    } 
+  },
+  "Wigglytuff": {
+	 "Camper Ethan": {
+	  "level": 40,
+	  "ability": "Competitive",
+	  "moves": [
+		"Metronome",
+		"Misty Terrain",
+		"Misty Explosion",
+		"Thunder Wave"
+	  ],
+	  "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Leftovers",
+	  "index": 332
+    } 
+  },
+  "Ditto": {
+	 "Camper Ethan": {
+	  "level": 40,
+	  "teraType": "Steel",
+	  "ability": "Imposter",
+	  "moves": [
+	  ],
+	  "nature": "Hardy",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Mirror Herb",
+	  "index": 333
+    } 
+  },
+  "Dragonair": {
+	 "Cooltrainer Eli": {
+	  "level": 42,
+	  "ability": "Shed Skin",
+	  "moves": [
+		"Breaking Swipe",
+		"Extreme Speed",
+		"Dragon Dance",
+		"Iron Head"
+	  ],
+	  "nature": "Adamant",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Eviolite",
+	  "index": 334
+    } 
+  },
+  "Flygon": {
+	 "Cooltrainer Eli": {
+	  "level": 42,
+	  "ability": "Levitate",
+	  "moves": [
+		"Flamethrower",
+		"Earth Power",
+		"First Impression",
+		"Dragon Pulse"
+	  ],
+	  "nature": "Rash",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "White Herb",
+	  "index": 335
+    } 
+  },
+  "Drampa": {
+	 "Cooltrainer Eli": {
+	  "level": 42,
+	  "ability": "Cloud Nine",
+	  "moves": [
+		"Hurricane",
+		"Hydro Pump",
+		"Hyper Voice",
+		"Dragon Pulse"
+	  ],
+	  "nature": "Rash",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Chople Berry",
+	  "index": 336
+    } 
+  },
+  "Kingdra": {
+	 "Cooltrainer Eli": {
+	  "level": 42,
+	  "teraType": "Fire",
+	  "ability": "Sniper",
+	  "moves": [
+		"Tera Blast",
+		"Dragon Pulse",
+		"Solar Beam",
+		"Flash Cannon"
+	  ],
+	  "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Scope Lens",
+	  "index": 337
+    } 
+  },
+  "Blaziken": {
+	 "Kindler Jace": {
+	  "level": 42,
+	  "ability": "Speed Boost",
+	  "moves": [
+		"Close Combat",
+		"Overheat"
+	  ],
+	  "nature": "Brave",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Life Orb",
+	  "index": 339
+    } 
+  },
+  "Samurott-Hisui": {
+	 "Kindler Jace": {
+	  "level": 42,
+	  "teraType": "Fire",
+	  "ability": "Sharpness",
+	  "moves": [
+		"Ceaseless Edge",
+		"Aerial Ace",
+		"Tera Blast",
+		"X-Scissor"
+	  ],
+	  "nature": "Adamant",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Dark Gem",
+	  "index": 340
+    } 
+  },
+  "Chandelure": {
+	 "Kindler Jace": {
+	  "level": 42,
+	  "ability": "Flash Fire",
+	  "moves": [
+		"Dark Pulse",
+		"Energy Ball",
+		"Flamethrower",
+		"Shadow Ball"
+	  ],
+	  "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Wise Glasses",
+	  "index": 341
+    } 
+  },
+  "Hawlucha": {
+	 "Cooltrainer Gerald": {
+	  "level": 42,
+	  "teraType": "Fire",
+	  "ability": "Limber",
+	  "moves": [
+		"Tera Blast",
+		"Flying Press",
+		"Acrobatics",
+		"Iron Head"
+	  ],
+	  "nature": "Adamant",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Air Balloon",
+	  "index": 343
+    } 
+  },
+  "Talonflame": {
+	 "Cooltrainer Gerald": {
+	  "level": 42,
+	  "ability": "Gale Wings",
+	  "moves": [
+		"Acrobatics",
+		"Overheat",
+		"U-turn",
+		"Substitute"
+	  ],
+	  "nature": "Naive",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Eject Pack",
+	  "index": 344
+    },
+	"Leader Flannery": {
+	  "level": 45,
+	  "ability": "Flame Body",
+	  "moves": [
+		"Acrobatics",
+		"Flare Blitz",
+		"U-turn",
+		"Swords Dance"
+	  ],
+	  "nature": "Adamant",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Flying Gem",
+	  "index": 368
+    }
+  },
+  "Incineroar": {
+	 "Cooltrainer Gerald": {
+	  "level": 42,
+	  "ability": "Intimidate",
+	  "moves": [
+		"Fire Spin",
+		"Drain Punch",
+		"Knock Off",
+		"Fire Punch"
+	  ],
+	  "nature": "Naughty",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Assault Vest",
+	  "index": 345
+    } 
+  },
+  "Kommo-o": {
+	 "Cooltrainer Gerald": {
+	  "level": 42,
+	  "ability": "Bulletproof",
+	  "moves": [
+		"Dragon Tail",
+		"Drain Punch",
+		"Shadow Claw",
+		"Vacuum Wave"
+	  ],
+	  "nature": "Hardy",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Roseli Berry",
+	  "index": 346
+    } 
+  },
+  "Tangrowth": {
+	 "Kindler Cole": {
+	  "level": 42,
+	  "ability": "Chlorophyll",
+	  "moves": [
+		"Power Whip",
+		"Rock Slide",
+		"Brick Break",
+		"Knock Off"
+	  ],
+	  "nature": "Jolly",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Assault Vest",
+	  "index": 346
+    } 
+  },
+  "Leafeon": {
+	 "Kindler Cole": {
+	  "level": 42,
+	  "teraType": "Fire",
+	  "ability": "Chlorophyll",
+	  "moves": [
+		"Solar Blade",
+		"X-Scissor",
+		"Swords Dance",
+		"Tera Blast"
+	  ],
+	  "nature": "Adamant",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Abilty Shield",
+	  "index": 347
+    } 
+  },
+  "Shiftry": {
+	 "Kindler Cole": {
+	  "level": 42,
+	  "ability": "Chlorophyll",
+	  "moves": [
+		"Solar Blade",
+		"Focus Blast",
+		"Dark Pulse",
+		"Weather Ball"
+	  ],
+	  "nature": "Mild",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Focus Sash",
+	  "index": 349
+    } 
+  },
+  "Sunflora": {
+	 "Kindler Cole": {
+	  "level": 42,
+	  "ability": "Solar Power",
+	  "moves": [
+		"Growth",
+		"Solar Beam",
+		"Earth Power",
+		"Weather Ball"
+	  ],
+	  "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Occa Berry",
+	  "index": 350
+    } 
+  },
+  "Arcanine-Hisui": {
+	 "Kindler Axle": {
+	  "level": 42,
+	  "ability": "Rock Head",
+	  "moves": [
+		"Head Smash",
+		"Flare Blitz",
+		"Close Combat",
+		"Wild Charge"
+	  ],
+	  "nature": "Jolly",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Life Orb",
+	  "index": 352
+    } 
+  },
+  "Heracross": {
+	 "Kindler Axle": {
+	  "level": 42,
+	  "teraType": "Fire",
+	  "ability": "Guts",
+	  "moves": [
+		"Close Combat",
+		"Earthquake",
+		"Megahorn",
+		"Stone Edge"
+	  ],
+	  "nature": "Jolly",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Toxic Orb",
+	  "index": 353
+    } 
+  },
+  "Pyroar": {
+	 "Kindler Keegan (1)": {
+	  "level": 42,
+	  "ability": "Rivalry",
+	  "moves": [
+		"Hyper Voice",
+		"Heat Wave",
+		"Burning Jealousy",
+		"Noble Roar"
+	  ],
+	  "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "King's Rock",
+	  "index": 355
+    },
+	"Kindler Keegan (2)": {
+	  "level": 42,
+	  "ability": "Rivalry",
+	  "moves": [
+		"Burning Jealousy",
+		"Noble Roar",
+		"Solar Beam",
+		"Entrainment"
+	  ],
+	  "nature": "Timid",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Life Orb",
+	  "index": 356
+    } 
+  },
+  "Salazzle": {
+	 "Kindler Keegan": {
+	  "level": 42,
+	  "ability": "Corrosion",
+	  "moves": [
+		"Incinerate",
+		"Belch",
+		"Agility",
+		"Gunk Shot"
+	  ],
+	  "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Wiki Berry",
+	  "index": 357
+    } 
+  },
+  "Forretress": {
+	 "Kindler Keegan": {
+	  "level": 42,
+	  "teraType": "Fire",
+	  "ability": "Sturdy",
+	  "moves": [
+		"Body Press",
+		"Pain Split",
+		"Thunder Wave",
+		"Hard Press"
+	  ],
+	  "nature": "Relaxed",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Air Balloon",
+	  "index": 358
+    } 
+  },
+  "Glaceon": {
+	 "Cooltrainer Dani": {
+	  "level": 42,
+	  "ability": "Ice Body",
+	  "moves": [
+		"Weather Ball",
+		"Mirror Coat",
+		"Shadow Ball",
+		"Alluring Voice"
+	  ],
+	  "nature": "Hasty",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Leftovers",
+	  "index": 363
+    } 
+  },
+  "Jumpluff": {
+	 "Leader Flannery": {
+	  "level": 45,
+	  "ability": "Chlorophyll",
+	  "moves": [
+		"Sleep Powder",
+		"Solar Beam",
+		"Tailwind",
+		"Substitute"
+	  ],
+	  "nature": "Modest",
+	  "ivs": {
+			  "hp": 31, "at": 0, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Focus Sash",
+	  "index": 366
+    } 
+  },
+  "Charizard-Mega-X": {
+	 "Leader Flannery": {
+	  "level": 45,
+	  "ability": "Tough Claws",
+	  "moves": [
+		"Dragon Claw",
+		"Dragon Dance",
+		"Iron Tail",
+		"Fire Punch"
+	  ],
+	  "nature": "Jolly",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Charizardite X",
+	  "index": 367
+    } 
+  },
+  "Lilligant-Hisui": {
+	 "Leader Flannery": {
+	  "level": 45,
+	  "teraType": "Fire",
+	  "ability": "Chlorophyll",
+	  "moves": [
+		"Victory Dance",
+		"Brick Break",
+		"Leaf Blade",
+		"Fire Punch"
+	  ],
+	  "nature": "Hardy",
+	  "ivs": {
+			  "hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31
+		  },
+	  "item": "Covert Cloak",
+	  "index": 369
     } 
   }
 }
